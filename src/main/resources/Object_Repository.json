@@ -1,0 +1,3348 @@
+{
+	"/LoginPage": {
+		"Login_username": {
+			"type": "id",
+			"value": "loginUser"
+		},
+		"Login_password": {
+			"type": "name",
+			"value": "password"
+		},
+		"Login_signinButton": {
+			"type": "css",
+			"value": "#loginInputContainer > div.buttonStyle > div > div"
+		},
+		"Login_imageLink": {
+			"type": "css",
+			"value": "a[href*='/integration/imagebank/outbound/home']"
+		},
+		"Login_logout": {
+			"type": "id",
+			"value": "signOutButton"
+		},
+		"logoutButton": {
+			"type": "css",
+			"value": "#signOutButton2 > a"
+		},
+		"LogOutDiv": {
+			"type": "css",
+			"value": "body > ng-include:nth-child(3) > div > div.vcp-sticky-container.vcp-header-sticky-max > nav > section.header-utility-nav.l-horizontal-bar-nav > vcp-drop-menu > button > span > span"
+		},
+		"signoutButton": {
+			"type": "xpath",
+			"value": "//a[normalize-space(text())='Sign Out']"
+		}
+	},
+	"/HomePage": {
+		"adminSpinner": {
+			"type": "css",
+			"value": "div.adminSpinner"
+		},
+		"Home_helpmenuButton": {
+			"type": "id",
+			"value": "helpMenufromHomeButton"
+		},
+		"Home_about_IDEXX_WebPACS": {
+			"type": "linktext",
+			"value": "About IDEXX Web PACS"
+		},
+		"Home_versionNumber": {
+			"type": "css",
+			"value": ".version.ng-binding"
+		},
+		"Home_searchBox": {
+			"type": "id",
+			"value": "searchInput"
+		},
+		"Home_searchResultsmsg": {
+			"type": "xpath",
+			"value": ".//*[@id='searchDescriptionArea']"
+		},
+		"Home_searchButton": {
+			"type": "css",
+			"value": "button.searchButton"
+		},
+		"shareDailog": {
+			"type": "css",
+			"value": "div[id*='share-options']"
+		},
+		"shareDailogTitle": {
+			"type": "css",
+			"value": "div[id*='share-options'] > ng-transclude > label"
+		},
+		"Home_firstShareImageLink": {
+			"type": "css",
+			"value": "a[title*='Share these images']"
+		},
+		"Home_firstShareAnyImageFromStudyLink": {
+			"type": "xpath",
+			"value": "//a[normalize-space(text())='Share any image from']/strong[text()='this study']"
+		},
+		"Home_firstShareAnyImageFromPatientHistoryLink": {
+			"type": "xpath",
+			"value": "//a[normalize-space(text())='Share any image from']/strong[text()='patient history']"
+		},
+		"Home_firstShareAnyImageFromStudy": {
+			"type": "css",
+			"value": "div[id*='share-options'] > ng-transclude > pacs-button:nth-child(2) > div > a"
+		},
+		"Home_firstShareAnyImageFromPatientHistory": {
+			"type": "css",
+			"value": "div[id*='share-options'] > ng-transclude > pacs-button:nth-child(3) > div > a"
+		},
+		"Home_searchResultsfirstImage": {
+			"type": "xpath",
+			"value": ".//*[@id='patientCard']/div[3]/div[2]/div/div[1]/div/div"
+		},
+		"message_center_link": {
+			"type": "css",
+			"value": "div[ng-click*='messageIconCtrl.messageCenterService'] > span"
+		},
+		"message_center_div": {
+			"type": "css",
+			"value": "div.message-list-title-container"
+		},
+		"first_message": {
+			"type": "css",
+			"value": "div.message-list-select-message-area"
+		},
+		"firstmessageList_title": {
+			"type": "css",
+			"value": "div.message-list-select-message-area > div.message-list-text-container > div.ng-binding.message-list-subject-unread"
+		},
+		"first_msg_title": {
+			"type": "xpath",
+			"value": "//div[@class='message-details-inner-border']//div[contains(@class,'ng-binding message-details-title')]"
+		},
+		"first_msg_body": {
+			"type": "css",
+			"value": "div[class*='message-details-content-inner'] > div[class*='message-details-message'] > p"
+		},
+		"first_msg_attachment": {
+			"type": "css",
+			"value": "span.message-details-attachment-block-link > a"
+		},
+		"settingsIcon": {
+			"type": "id",
+			"value": "settingsFromHomeButton"
+		},
+		"practiceInfoButton": {
+			"type": "xpath",
+			"value": "//div[text()='Practice Information']"
+		},
+		"practInfoLink": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div:nth-child(1) > pacs-button:nth-child(1) > button"
+		},
+		"dailogueClose": {
+			"type": "xpath",
+			"value": "//button[contains(text(),'Close')]"
+		},
+		"shareLink": {
+			"type": "xpath",
+			"value": "//div[@class='ng-scope button-patient-card-border']/a[@class='button-card-share button-card']"
+		},
+		"validatingEmail": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div:nth-child(7) > div > span"
+		},
+		"ReplyToEmailEdit": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div:nth-child(1) > pacs-button:nth-child(1) > button"
+		},
+		"settingsDiv_Slide": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.menu_frame_handle_wrapper > div"
+		},
+		"hamburgerIcon": {
+			"type": "id",
+			"value": "crossAppMenuFromHome"
+		},
+		"downArrowIcon": {
+			"type": "id",
+			"value": "dialogQueuefromHomeButton"
+		},
+		"ImageQueuesLink": {
+			"type": "css",
+			"value": "#dialogQueuefromHomeButtonMenu > div.outerdicomQueueDialog > div:nth-child(1) > pacs-button > div > a"
+		},
+		"settingsButton": {
+			"type": "id",
+			"value": "settingsFromHomeButton"
+		},
+		"dicomQueueContainer": {
+			"type": "id",
+			"value": "mainDicomQueueContainer"
+		},
+		"outBoundMail": {
+			"type": "css",
+			"value": "form[id*='form-gridStyleOutboundQueue'] > div[id*='gridStyleOutboundQueue'] > div > table > tbody > tr:nth-child(1)"
+		},
+		"outBoundMailSuccess": {
+			"type": "css",
+			"value": "#colDetail7 > span.ng-binding"
+		},
+		"outBoundImages": {
+			"type": "css",
+			"value": "#colDetail5 > span.ng-binding"
+		},
+		"dateSentHeader": {
+			"type": "css",
+			"value": "#colHeader6"
+		},
+		"helpMenuIcon": {
+			"type": "id",
+			"value": "helpMenufromHomeButton"
+		},
+		"educationResourcesHeader": {
+			"type": "css",
+			"value": "body > h1"
+		},
+		"topicIframe": {
+			"type": "id",
+			"value": "topic"
+		},
+		"whatsNew": {
+			"type": "css",
+			"value": "body > h1"
+		},
+		"educationResourcesLink": {
+			"type": "css",
+			"value": "#helpMenufromHomeButtonMenu > div.outerHelpDialog > pacs-button:nth-child(2) > div > a"
+		},
+		"whatsNewLink": {
+			"type": "css",
+			"value": "#helpMenufromHomeButtonMenu > div.outerHelpDialog > pacs-button:nth-child(4) > div > a"
+		},
+		"HelpLink": {
+			"type": "css",
+			"value": "#helpMenufromHomeButtonMenu > div.outerHelpDialog > pacs-button:nth-child(1) > div > a"
+		},
+		"aboutIdexx": {
+			"type": "css",
+			"value": "#helpMenufromHomeButtonTips > a"
+		},
+		"signOutIcon": {
+			"type": "id",
+			"value": "signOutButton"
+		},
+		"lastDaysButton": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > pacs-button:nth-child(1) > li > div > a"
+		},
+		"thisWeekButton": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > pacs-button:nth-child(2) > li > div > a"
+		},
+		"lastWeekButton": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > pacs-button:nth-child(3) > li > div > a"
+		},
+		"dateRange": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > pacs-button:nth-child(4) > li > div > a"
+		},
+		"resetButton": {
+			"type": "id",
+			"value": "reset"
+		},
+		"allSpecies": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(2) > div.dropdownListSection"
+		},
+		"allDoctors": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(3) > div.dropdownListSection"
+		},
+		"allModalities": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(4) > div.dropdownListSection"
+		},
+		"speciesIcon": {
+			"type": "css",
+			"value": "#patientCard > div.patientArea > div:nth-child(1)"
+		},
+		"patientName": {
+			"type": "css",
+			"value": "#patientCard > div.patientArea > div:nth-child(1)"
+		},
+		"patientId": {
+			"type": "css",
+			"value": "#patientCard > div.patientArea > div:nth-child(1) > div.studyTextPatientSection > div.studyTextPatientIdNewLine.ng-binding.ng-isolate-scope"
+		},
+		"patientCardThumbnail": {
+			"type": "css",
+			"value": "#patientCard > div.innerStudyArea.ng-scope > div.studyImageArea > div"
+		},
+		"numberOfImages": {
+			"type": "css",
+			"value": "#patientCard > div.innerStudyArea.ng-scope > div.studyImageArea > div > div.imageCount"
+		},
+		"ellipsis": {
+			"type": "css",
+			"value": "#patientCard > div.innerStudyArea.ng-scope > div.studyImageArea > div.moreSeries.ng-scope"
+		},
+		"shareIcon": {
+			"type": "css",
+			"value": "#patientCard > div.patientArea > div.patient-card-button-area.ng-scope > div:nth-child(3) > pacs-button > div > a"
+		},
+		"downloadIcon": {
+			"type": "css",
+			"value": "#patientCard > div.patientArea > div.patient-card-button-area.ng-scope > pacs-button > div > a"
+		},
+		"printIcon": {
+			"type": "css",
+			"value": "#patientCard > div.patientArea > div.patient-card-button-area.ng-scope > div:nth-child(2) > pacs-button > div > a"
+		},
+		"paperClipIcon": {
+			"type": "id",
+			"value": "telemedicineIndicator"
+		},
+		"sessionListIndicator": {
+			"type": "css",
+			"value": "#patientCard > div.innerStudyArea.ng-scope > div.studyImageArea > collaboration-indicator > a"
+		},
+		"yearSelect": {
+			"type": "id",
+			"value": "genericDropDown"
+		},
+		"clickPreviouseMonthIcon": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > div > div > div.ix-calendar-month-year-header > div:nth-child(1) > div.ix-calendar-previous"
+		},
+		"selectDay": {
+			"type": "TEXT",
+			"value": "//div[contains(@class, 'ix-calendar-day-of-month')][text()='textToReplace']"
+		},
+		"setDate": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > div > div > div.ix-calendar-button-area > div > pacs-button:nth-child(1) > button"
+		},
+		"selectYear": {
+			"type": "css",
+			"value": "#genericDropDown > div > ul.dropdown.mCustomScrollbar > div > div > li:nth-child(2) > a"
+		},
+		"resultsContainer": {
+			"type": "css",
+			"value": "div.mCSB_container"
+		},
+		"resultsScroll": {
+			"type": "css",
+			"value": "div.mCSB_dragger"
+		},
+		"showMoreResults": {
+			"type": "css",
+			"value": "#main > div.home-screen-show-more > pacs-button > button"
+		},
+		"showMoreResultsDiv": {
+			"type": "css",
+			"value": "#main > div.home-screen-show-more"
+		},
+		"firstImageThumbnail": {
+			"type": "css",
+			"value": "#patientCard > div.innerStudyArea.ng-scope > div.studyImageArea > div > div:nth-child(1) > div > div"
+		},
+		"resultsDraggerRail": {
+			"type": "css",
+			"value": "#mCSB_62_scrollbar_vertical > div > div.mCSB_draggerRail"
+		},
+		"cardArea": {
+			"type": "xpath",
+			"value": "//div[contains(@id, 'cardArea')]/div"
+		}
+	},
+	"/ImageViewerPage": {
+		"ImageViewer_AdvancedMeasurementTool": {
+			"type": "xpath",
+			"value": ".//*[@id='bottomButton-measure']"
+		},
+		"ImageViewer_VhsTool": {
+			"type": "xpath",
+			"value": ".//*[@id='bottomButton-annotate-VHS']"
+		},
+		"ImageViewer_HomeIcon": {
+			"type": "xpath",
+			"value": ".//*[@id='viewerMenuBar']/div[4]"
+		},
+		"jpegAttachmentsRadiobutton": {
+			"type": "xpath",
+			"value": "//form/div[2]/label[2]/div"
+		},
+		"dicomTagCheckBoxLocator": {
+			"type": "xpath",
+			"value": "//form/div[3]/div[1]/span[1]"
+		},
+		"annotationsCheckBoxLocator": {
+			"type": "xpath",
+			"value": "//form/div[3]/div[2]/span[1]"
+		},
+		"imageRevert": {
+			"type": "xpath",
+			"value": ".//*[@id='bottomButton-revert']"
+		},
+		"imageRevertAccept": {
+			"type": "xpath",
+			"value": ".//*[@id='popup-annotate-modal']/div/div/div[3]/a[1]"
+		},
+		"showMoreButton": {
+			"type": "xpath",
+			"value": "//*[@id='main']//pacs-button/button[contains(text(), 'Show More Results')]"
+		},
+		"eesGainPlus": {
+			"type": "id",
+			"value": "ees_gain_plus"
+		},
+		"eesGainMinus": {
+			"type": "id",
+			"value": "ees_gain_minus"
+		},
+		"eedSpeedPlus": {
+			"type": "id",
+			"value": "ees_speed_plus"
+		},
+		"eesSpeedMinus": {
+			"type": "id",
+			"value": "ees_speed_minus"
+		},
+		"eesGrid": {
+			"type": "id",
+			"value": "ees_grid"
+		}
+	},
+	"/ShareDailogPage": {
+		"shareWidgetContainer": {
+			"type": "id",
+			"value": "shareWidgetContainer"
+		},
+		"ShareDialog": {
+			"type": "id",
+			"value": "shareWidgetPanel"
+		},
+		"EmailTo": {
+			"type": "id",
+			"value": "partnerTextEntry"
+		},
+		"EmailIdAddress": {
+			"type": "css",
+			"value": "div.mCSB_container > ul > li > div > span.ng-binding.unregistered"
+		},
+		"EmailSendButton": {
+			"type": "css",
+			"value": "#shareWidgetPanel > footer > pacs-button:nth-child(1) > button"
+		},
+		"JpegAttachmentsRadioButton": {
+			"type": "css",
+			"value": "form > div.input-line-item.radio-group > label:nth-child(3) > div"
+		},
+		"LinkToViewOnlineRadioButton": {
+			"type": "css",
+			"value": "form > div.input-line-item.radio-group > label:nth-child(2) > div"
+		},
+		"JpegAttachmentsRadioButtonLabel": {
+			"type": "css",
+			"value": "form > div.input-line-item.radio-group > label:nth-child(3) > span"
+		},
+		"LinkToViewOnlineRadioButtonLabel": {
+			"type": "css",
+			"value": "form > div.input-line-item.radio-group > label:nth-child(2) > span"
+		},
+		"JpegAttachmentRadioButton": {
+			"type": "css",
+			"value": "form > div.input-line-item.radio-group > label:nth-child(3) > div"
+		},
+		"emailAttachmentsOptionContainer": {
+			"type": "css",
+			"value": "form > div.email-attachment-options-container.slideDown"
+		},
+		"InteractiveButton": {
+			"type": "xpath",
+			"value": ".//*[@id='tabs']/ul/li[4]"
+		},
+		"dicomTagsCheckBox": {
+			"type": "xpath",
+			"value": "//form/div[3]/div[1]/span[1]"
+		},
+		"addAnnotationCheckBox": {
+			"type": "xpath",
+			"value": "//form/div[3]/div[2]/span[1]"
+		},
+		"dicomTagsCheckBoxLabel": {
+			"type": "xpath",
+			"value": "//form/div[3]/div[1]/span[2]"
+		},
+		"addAnnotationCheckBoxLabel": {
+			"type": "xpath",
+			"value": "//form/div[3]/div[2]/span[2]"
+		},
+		"endCollaboration": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div.endCollaboration.ng-scope"
+		},
+		"chatWindow": {
+			"type": "css",
+			"value": "div#chatPaneTabInnerContainer > div#chatPaneTab:nth-child(2)"
+		},
+		"participantInformation": {
+			"type": "css",
+			"value": "p[title='Show participant information']"
+		},
+		"hostStatus": {
+			"type": "xpath",
+			"value": ".//*[@id='icControllerDialog']/section/div/div[3]/div[2]"
+		},
+		"drawAnntoation": {
+			"type": "xpath",
+			"value": ".//*[@id='rightButtonsContainer']/input[1]"
+		},
+		"drawAnnotationLocator": {
+			"type": "xpath",
+			"value": ".//*[@id='popup-bottomToolbar']/div/div/div[1]/div[2]/input[1]"
+		},
+		"participantStatus": {
+			"type": "xpath",
+			"value": ".//*[@id='icControllerDialog']/section/div/div[4]/div[2]"
+		},
+		"emailTab": {
+			"type": "css",
+			"value": "#tabs > ul > li[class*='emailShareTab']"
+		},
+		"dicomTab": {
+			"type": "css",
+			"value": "#tabs > ul > li[class*='dicomShareTab']"
+		},
+		"teleMedicine": {
+			"type": "css",
+			"value": "#tabs > ul > li[class*='telemedicineShareTab']"
+		},
+		"interactiveTab": {
+			"type": "css",
+			"value": "#tabs > ul > li[class*='interactiveShareTab']"
+		},
+		"patientHistoryDailogtext": {
+			"type": "css",
+			"value": "div.share-tab-inner-content > div.mCustomScrollBox > div.mCSB_container > section > p"
+		},
+		"shareAttachmentText": {
+			"type": "css",
+			"value": "#shareWidgetPanel > div.shareContent > section > p.share-image-list-label.ng-binding"
+		},
+		"shareAttachmentMessage": {
+			"type": "css",
+			"value": "#shareWidgetPanel > div.shareContent > section > p.share-image-list-instructions.ng-binding"
+		},
+		"cancelButton": {
+			"type": "css",
+			"value": "#shareWidgetPanel > footer > pacs-button:nth-child(2) > button"
+		},
+		"attachedImage": {
+			"type": "TEXT",
+			"value": "(//div[@class='image-file-list-image-container'])[textToReplace]"
+		},
+		"attachedImageSelectedIcon": {
+			"type": "TEXT",
+			"value": "(//div[@id='shareWidgetPanel']//div[@class='image-file-list-image-container']//div[@class='image-file-list-image-selection-container']/div)[textToReplace]"
+		},
+		"attachedImages": {
+			"type": "xpath",
+			"value": "//div[@id='shareWidgetPanel']//div[@class='image-file-list-image-container']"
+		},
+		"importedImages": {
+			"type": "TEXTCSS",
+			"value": "div#StudyContents-0 div.SeriesItem div.ng-scope.ImageItem:nth-child(textToReplace)"
+		},
+		"emailTo": {
+			"type": "id",
+			"value": "partnerTextEntry"
+		},
+		"emailSubject": {
+			"type": "css",
+			"value": "input[name='sendSubject']"
+		},
+		"emailMessage": {
+			"type": "id",
+			"value": "sendComments"
+		},
+		"sendButton": {
+			"type": "css",
+			"value": "#shareWidgetPanel > footer > pacs-button:nth-child(1) > button"
+		},
+		"emailSuggestionsContainer": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar"
+		},
+		"unregisteredPartnerText": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar ul > li.ng-scope.unregistered > div > span.unregistered"
+		},
+		"unregisteredPartentIcon": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar ul > li.ng-scope.unregistered > div > a.registerTrigger"
+		},
+		"registeredPartner": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar ul > li.ng-scope:nth-child(2) > div > span.registered"
+		},
+		"registeredPartnerIcon": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar ul > li.ng-scope:nth-child(2) > div > a.registerTrigger"
+		},
+		"registeredPartnerByIndex": {
+			"type": "TEXTCSS",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar ul > li.ng-scope:nth-child(textToReplace) > div > span.registered"
+		},
+		"registeredPartnerIconByIndex": {
+			"type": "TEXTCSS",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar ul > li.ng-scope:nth-child(textToReplace) > div > a.registerTrigger"
+		},
+		"sharePartners": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > div.autocomplete-dropdown.mCustomScrollbar ul > li.ng-scope"
+		},
+		"addPartnerPopup": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > add-partner-popup > div"
+		},
+		"partnerNameTextbox": {
+			"type": "id",
+			"value": "addPartnerOnTheFlyPartner"
+		},
+		"partnerEmailTextbox": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > add-partner-popup > div > div > div.pacs-popup-content > div > form > input.share-widget-add-partners-input[type='email']"
+		},
+		"addPartnerCancel": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > add-partner-popup > div > div > div.pacs-popup-button-area > div > div > pacs-button:nth-child(2) > button"
+		},
+		"addPartnerButton": {
+			"type": "css",
+			"value": "#emailView > div > div > form > div.ng-isolate-scope > add-partner-popup > div > div > div.pacs-popup-button-area > div > div > pacs-button:nth-child(1) > button"
+		},
+		"errorMessageContainer": {
+			"type": "css",
+			"value": "#container > div.dialogOverlay.show.modal.ng-scope > aside"
+		},
+		"errorMessageText": {
+			"type": "css",
+			"value": "#container > div.dialogOverlay.show.modal.ng-scope > aside > div.errorMessageOuter > div > div:nth-child(1)"
+		},
+		"errorMessageOK": {
+			"type": "id",
+			"value": "Ok"
+		},
+		"messageBox": {
+			"type": "id",
+			"value": "sendComments"
+		},
+		"firstImageTickMark": {
+			"type": "xpath",
+			"value": "//div[@class='SeriesItem ng-scope']//div[contains(@class, 'ImageItem')][1]/div[3]"
+		}
+	},
+	"/ICHostPage": {
+		"EndCollaberationButton": {
+			"type": "xpath",
+			"value": "//*[@id='icControllerDialog']/header/div[4]"
+		},
+		"ChatWindow": {
+			"type": "xpath",
+			"value": "(//div[@id='chatPaneTab'])[2]"
+		},
+		"showParticipant": {
+			"type": "css",
+			"value": "p[title='Show participant information']"
+		},
+		"hostStatus": {
+			"type": "xpath",
+			"value": ".//*[@id='icControllerDialog']/section/div/div[3]/div[2]"
+		},
+		"annotationToolsIcon": {
+			"type": "xpath",
+			"value": ".//*[@id='rightButtonsContainer']/input[1]"
+		},
+		"strightLineIcon": {
+			"type": "xpath",
+			"value": ".//*[@id='popup-bottomToolbar']/div/div/div[1]/div[2]/input[1]"
+		},
+		"shareImagesLinkLocator": {
+			"type": "xpath",
+			"value": "//a[@title='Share these images']"
+		},
+		"shareAnyImageFromThisStudyLocator": {
+			"type": "xpath",
+			"value": "//a[normalize-space(text())='Share any image from']/strong[text()='this study']"
+		},
+		"shareAnyImageFromPatientHistoryLocator": {
+			"type": "xpath",
+			"value": "//a[normalize-space(text())='Share any image from']/strong[text()='this study']"
+		},
+		"collabartionDiv": {
+			"type": "id",
+			"value": "icControllerDialog"
+		},
+		"collabarationClosedTitle": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div:nth-child(1) > p:nth-child(1)"
+		},
+		"collabarationOpenedTitle": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div:nth-child(1) > p:nth-child(2)"
+		},
+		"participantsDiv": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div:nth-child(7)"
+		},
+		"participantsDivOnParticipant": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div:nth-child(5)"
+		},
+		"sendUpdatesIcon": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div.submitUpdates.submitUpdatesIcon"
+		},
+		"sendUpdatesIconOnParticipant": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div.submitUpdates.submitUpdatesIcon"
+		},
+		"endCollabarationIcon": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div.endCollaboration.ng-scope"
+		},
+		"compareIcon": {
+			"type": "css",
+			"value": "button[id='Compare Button']"
+		},
+		"downloadIcon": {
+			"type": "css",
+			"value": "#viewerRightButtonPaneContent > div > table > tbody > tr > td:nth-child(5) > pacs-button > button"
+		},
+		"ParticipantdownloadIcon": {
+			"type": "css",
+			"value": "#viewerRightButtonPaneContent > div > table > tbody > tr > td:nth-child(3) > pacs-button > button"
+		},
+		"expandedChatIcon": {
+			"type": "css",
+			"value": "div[id='chatPaneTabInnerContainer'] > div:nth-child(1)"
+		},
+		"collapsedChatIcon": {
+			"type": "css",
+			"value": "div[id='chatPaneTabInnerContainer'] > div:nth-child(2)"
+		},
+		"chatTextarea": {
+			"type": "css",
+			"value": "div.chatContent > div.chatTextAreaBorder >div > div.mCSB_container > textarea"
+		},
+		"chatTextareaDiv": {
+			"type": "css",
+			"value": "div.chatContent > div.chatTextAreaBorder"
+		},
+		"viewCollabarationIcon": {
+			"type": "css",
+			"value": "#patientCard > div.innerStudyArea.ng-scope > div.studyImageArea > collaboration-indicator > a"
+		},
+		"collabarationListDailog": {
+			"type": "id",
+			"value": "collaborationListDialog"
+		},
+		"collabarationListStatusHeader": {
+			"type": "css",
+			"value": "#colHeader0"
+		},
+		"collabarationListFirstRow": {
+			"type": "css",
+			"value": "#colDetail0"
+		},
+		"viewCollabaration": {
+			"type": "css",
+			"value": "#collaborationListDialog > footer > div > div:nth-child(2) > a"
+		},
+		"collabarationEndedDate": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div:nth-child(2) > p:nth-child(1)"
+		},
+		"participantCount": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div:nth-child(7) > div:nth-child(2)"
+		},
+		"restartButton": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div.restartCollaboration.ng-scope"
+		},
+		"closeCollabaration": {
+			"type": "css",
+			"value": "#icControllerDialog > header > div.closeCollaboration"
+		},
+		"rightPanelImageByIndex": {
+			"type": "TEXTCSS",
+			"value": "div.SeriesItem.ng-scope > div.ImageItem:nth-of-type(textToReplace)"
+		}
+	},
+	"/GmailPage": {
+		"GmailUsername": {
+			"type": "xpath",
+			"value": "//*[@id='Email' or @id='identifierId']"
+		},
+		"GmailNext": {
+			"type": "xpath",
+			"value": "//*[@id='next'] | //*[@id='identifierNext']//content//span"
+		},
+		"GmailPassword": {
+			"type": "xpath",
+			"value": "//*[@id='Passwd'] | //*[@id='password']//input"
+		},
+		"GmailSignInButton": {
+			"type": "xpath",
+			"value": "//*[@id='signIn'] | //*[@id='passwordNext']//content//span"
+		},
+		"AutomationLabel": {
+			"type": "xpath",
+			"value": "//a[contains(text(),'Automation')]"
+		},
+		"ICLabel": {
+			"type": "xpath",
+			"value": "//a[contains(text(),'IC')]"
+		},
+		"responseEmail": {
+			"type": "xpath",
+			"value": "//span/b[contains(text(),'Diagnostic images for Luna1')]"
+		},
+		"shareEmail": {
+			"type": "xpath",
+			"value": "//span/b[contains(text(),'Diagnostic images for CARCINOMIX')]"
+		},
+		"shareEmailImage": {
+			"type": "css",
+			"value": "a[href*='https://qa.idexximagebank.com/emailView?emailToken'] > img"
+		},
+		"icresponseEmail": {
+			"type": "xpath",
+			"value": "//b[contains(text(),'Invitation to collaborate')]"
+		},
+		"icresponseUpdateEmail": {
+			"type": "xpath",
+			"value": "//b[contains(text(),'Updates have been made to the collaboration')]"
+		},
+		"icresponseUpdateEmailFromParticipant": {
+			"type": "xpath",
+			"value": "//b[contains(text(),'Updates to')]"
+		},
+		"Home_settingsButton": {
+			"type": "xpath",
+			"value": "//div[@id='settingsFromHomeButton']"
+		},
+		"practice_information_link": {
+			"type": "xpath",
+			"value": "//div[text()='Practice Information']"
+		},
+		"reply_to_email_text": {
+			"type": "xpath",
+			"value": "//div[@class='clinicAETitleContainer']//input[@name='emailId']"
+		},
+		"validate_email_button": {
+			"type": "xpath",
+			"value": "//div[@class='clinicAETitleContainer']/div[@class='email-verifier validEmail']//span[2]"
+		},
+		"reset_to_do_not_reply": {
+			"type": "xpath",
+			"value": "//button[contains(text(),'Reset to Do Not Reply')]"
+		},
+		"settings_close_button": {
+			"type": "xpath",
+			"value": "//button[contains(text(),'Close')]"
+		},
+		"share_button": {
+			"type": "xpath",
+			"value": "//div[@class='ng-scope button-patient-card-border']/a[@class='button-card-share button-card']"
+		},
+		"share_dailog": {
+			"type": "xpath",
+			"value": "//div[@class='anchored-dialog']"
+		},
+		"share_any_image": {
+			"type": "xpath",
+			"value": "//div[@class='anchored-dialog']//pacs-button[@class='ng-scope ng-isolate-scope'][1]/div/a"
+		},
+		"share_any_email_from": {
+			"type": "xpath",
+			"value": "//form[@name='shareByEmailForm']/label[@class='input-line-item']/p"
+		},
+		"first_gmail": {
+			"type": "xpath",
+			"value": "//div[@class='Cp']//table/tbody/tr[1]"
+		},
+		"first_gmail_activate_link": {
+			"type": "xpath",
+			"value": "//a[contains(@href,'https://email-verification.us-east-1.amazonaws.com/')]"
+		},
+		"validated_email": {
+			"type": "xpath",
+			"value": "//div[contains(@class, 'verifiedEmailMessage')]/span"
+		},
+		"email_edit_link": {
+			"type": "xpath",
+			"value": "//div[@id='shareWidgetPanel']//pacs-button/button[contains(text(), 'Cancel')]"
+		},
+		"signOutOptions": {
+			"type": "css",
+			"value": "a[href*='https://accounts.google.com/SignOutOptions'] > span"
+		},
+		"signOutButton": {
+			"type": "css",
+			"value": "a[href*='https://accounts.google.com/Logout']"
+		},
+		"deleteIcon": {
+			"type": "css",
+			"value": "#\\3a 5 > div.G-atb.D.E > div.iH > div > div:nth-child(2) > div.T-I.J-J5-Ji.nX.T-I-ax7.T-I-Js-Gs.ar7 > div > div"
+		},
+		"ActivateEmailLabel": {
+			"type": "css",
+			"value": "a[href*='https://mail.google.com/mail/u/0/#label/ActivateEmail']"
+		},
+		"firstActMail": {
+			"type": "xpath",
+			"value": "(//span[text()='Amazon Web Services'])[1]"
+		},
+		"startCollaboration": {
+			"type": "css",
+			"value": "a[href*='https://qa.idexximagebank.com/emailView?emailToken']"
+		},
+		"ICFromEmail": {
+			"type": "css",
+			"value": "div.adn.ads > div.gs > div.gE.iv.gt > table > tbody > tr:nth-child(1) > td.gF.gK > table > tbody > tr > td > h3 > span.gD"
+		},
+		"ICMailContent": {
+			"type": "css",
+			"value": "div[class*='a3s aXjCH']>div"
+		},
+		"chooseOtherAccount": {
+			"type": "css",
+			"value": "a[id='account-chooser-link']"
+		},
+		"editMailICon": {
+			"type": "css",
+			"value": "a[id='edit-account-list']"
+		},
+		"removeMailIcon": {
+			"type": "css",
+			"value": "#choose-account-0 > span.gu0k2c.EcSOLd"
+		},
+		"clickOnAnotherEmail": {
+			"type": "css",
+			"value": "#view_container > form > div.hMxfuf > div > div > div:nth-child(3) > div > content > span > span > svg"
+		},
+		"useAnotherAccount": {
+			"type": "css",
+			"value": "#identifierLink > div.vdE7Oc.f3GIQ > p"
+		}
+	},
+	"/AdminPage": {
+		"admin_username": {
+			"type": "xpath",
+			"value": "//form[@id='_loginForm']//div[@class='loginInnerBorder']//div[2]/input[contains(@class, 'ib-input')][1]"
+		},
+		"admin_password": {
+			"type": "xpath",
+			"value": "//input[@id='_password']"
+		},
+		"admin_signin": {
+			"type": "xpath",
+			"value": "//input[@id='_submitButton']"
+		},
+		"admin_msg_cent_link": {
+			"type": "xpath",
+			"value": "//a[@id='ui-id-8']"
+		},
+		"admin_crtemsg_link": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.message-center-tabs > pacs-button:nth-child(3) > li > a"
+		},
+		"admin_cmpsmsg_link": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.create-message-outer-border.ng-scope > div.message-center-tabs > pacs-button:nth-child(3) > li > a"
+		},
+		"admin_cmpmsg_title": {
+			"type": "css",
+			"value": "input.ib-input.compose-message-title-input"
+		},
+		"admin_cmpmsg_body": {
+			"type": "xpath",
+			"value": "//div[contains(@id,'taTextElement')]"
+		},
+		"admin_cmpmsg_send": {
+			"type": "xpath",
+			"value": "//div[@class='compose-message-right-button-area']//pacs-button[2]/button"
+		},
+		"admin_cmpmsg_attachFile": {
+			"type": "xpath",
+			"value": "//button[@name='attachFile']/i"
+		},
+		"admin_signout": {
+			"type": "xpath",
+			"value": "//a[@id='signOutButton']"
+		},
+		"attachmentLink":{
+			"type": "xpath",
+			"value": "//button[@name='insertLink2']/i"
+		},
+		"BodyMessageText":{
+			"type": "xpath",
+			"value": "//div[contains(@id,'taTextElement')]"
+		},
+		"BodyMessageTextLink":{
+			"type": "xpath",
+			"value": "//div[contains(@id,'taTextElement')]/a"
+		}
+	},
+	"/ViewerScreen": {
+		"ImageThumbnail": {
+			"type": "css",
+			"value": "#patientCard > div.innerStudyArea.ng-scope > div.studyImageArea > div > div > div > div.img"
+		},
+		"playMenu": {
+			"type": "css",
+			"value": "multi-frame-control"
+		},
+		"playMenuHidden": {
+			"type": "css",
+			"value": "multi-frame-control.removedComp"
+		},
+		"Home": {
+			"type": "css",
+			"value": "#viewerMenuBar > div.ng-scope.ui-layout-west.viewer-home-button.ui-layout-pane.ui-layout-pane-west"
+		},
+		"ActiveAreaOfImage": {
+			"type": "id",
+			"value": "imagePullDown"
+		},
+		"PatientInfoPanel": {
+			"type": "id",
+			"value": "patientDrawerHandle"
+		},
+		"viewPatientInVCIcon": {
+			"type": "css",
+			"value": "#PatientInfo > div.summary.pointer > div > div:nth-child(2) > div"
+		},
+		"DropDownArrow": {
+			"type": "id",
+			"value": "toolsMenu"
+		},
+		"HelpIcon": {
+			"type": "id",
+			"value": "helpMenuButton"
+		},
+		"educationResources": {
+			"type": "css",
+			"value": "#helpMenuButtonMenu > div.outerHelpDialog > pacs-button:nth-child(2) > div > a"
+		},
+		"whatsNew": {
+			"type": "css",
+			"value": "#helpMenuButtonMenu > div.outerHelpDialog > pacs-button:nth-child(4) > div > a"
+		},
+		"HelpLink": {
+			"type": "css",
+			"value": "#helpMenuButtonMenu > div.outerHelpDialog > pacs-button:nth-child(1) > div > a"
+		},
+		"aboutIdexxLink": {
+			"type": "css",
+			"value": "#helpMenuButtonTips > a"
+		},
+		"signOut": {
+			"type": "css",
+			"value": "#signOutButton2 > a"
+		},
+		"Restore": {
+			"type": "id",
+			"value": "bottomButton-revert"
+		},
+		"toggleOverlay": {
+			"type": "id",
+			"value": "bottomButton-toggle_overlay_tools"
+		},
+		"toggleAnnotations": {
+			"type": "id",
+			"value": "bottomButton-toggle_annotations"
+		},
+		"toggleDicomTage": {
+			"type": "id",
+			"value": "bottomButton-toggle_overlays"
+		},
+		"zoomTool": {
+			"type": "id",
+			"value": "bottomButton-zoom"
+		},
+		"zoomPanel": {
+			"type": "css",
+			"value": "#popup-bottomToolbar > div > div.popup-zoom.ng-scope"
+		},
+		"fitToWindowIcon": {
+			"type": "id",
+			"value": "bottomButton-fitToWindow"
+		},
+		"negativeIcon": {
+			"type": "id",
+			"value": "bottomButton-zoomOut"
+		},
+		"fiftyPerIcon": {
+			"type": "id",
+			"value": "bottomButton-zoom50"
+		},
+		"seventyFivePerIcon": {
+			"type": "id",
+			"value": "bottomButton-zoom75"
+		},
+		"hunderedPerIcon": {
+			"type": "id",
+			"value": "bottomButton-zoom100"
+		},
+		"oneFiftyPerIcon": {
+			"type": "id",
+			"value": "bottomButton-zoom150"
+		},
+		"plusIcon": {
+			"type": "id",
+			"value": "bottomButton-zoomIn"
+		},
+		"magnifierLens": {
+			"type": "id",
+			"value": "bottomButton-magnify"
+		},
+		"windowLevelIcon": {
+			"type": "id",
+			"value": "bottomButton-contrast"
+		},
+		"invertIcon": {
+			"type": "id",
+			"value": "bottomButton-invert"
+		},
+		"flipRotateIcon": {
+			"type": "id",
+			"value": "bottomButton-flip_rotate"
+		},
+		"rotateCounterClockWise": {
+			"type": "id",
+			"value": "bottomButton-rotateCCW"
+		},
+		"rotateClockWise": {
+			"type": "id",
+			"value": "bottomButton-rotateCW"
+		},
+		"flipHorizantal": {
+			"type": "id",
+			"value": "bottomButton-flipHorizontal"
+		},
+		"flipVertical": {
+			"type": "id",
+			"value": "bottomButton-flipVertical"
+		},
+		"annotationTool": {
+			"type": "css",
+			"value": "#rightButtonsContainer > input.bottomButton.bottomButton-annotate"
+		},
+		"annotationPanel": {
+			"type": "css",
+			"value": "#popup-bottomToolbar > div > div.popup-annotate"
+		},
+		"annotationArrowIcon": {
+			"type": "css",
+			"value": "#popup-bottomToolbar > div > div > div:nth-child(1) > div:nth-child(2) > input.popup-button.bottomButton-annotate-button.bottomButton-annotate-button-bottom-left.bottomButton-annotate-arrow"
+		},
+		"straightLineIcon": {
+			"type": "css",
+			"value": "#popup-bottomToolbar > div > div > div:nth-child(1) > div:nth-child(1) > input.popup-button.bottomButton-annotate-button.bottomButton-annotate-button-top-left.bottomButton-annotate-line"
+		},
+		"rectangleIcon": {
+			"type": "css",
+			"value": "#popup-bottomToolbar > div > div > div:nth-child(1) > div:nth-child(1) > input.popup-button.bottomButton-annotate-button.bottomButton-annotate-button-top-right.bottomButton-annotate-square"
+		},
+		"elipsesIcon": {
+			"type": "css",
+			"value": "#popup-bottomToolbar > div > div > div:nth-child(1) > div:nth-child(1) > input.popup-button.bottomButton-annotate-button.bottomButton-annotate-circle"
+		},
+		"textIcon": {
+			"type": "id",
+			"value": "bottomButton-annotate-text"
+		},
+		"labelAnatomy": {
+			"type": "id",
+			"value": "bottomButton-annotate-anatomy"
+		},
+		"measurementToolIcon": {
+			"type": "id",
+			"value": "bottomButton-measure"
+		},
+		"TLPOIcon": {
+			"type": "id",
+			"value": "bottomButton-annotate-TPLO"
+		},
+		"VHSTab": {
+			"type": "id",
+			"value": "bottomButton-annotate-VHS"
+		},
+		"collaborateIcon": {
+			"type": "id",
+			"value": "bottomButton-annotate-calibrate"
+		},
+		"TTATab": {
+			"type": "id",
+			"value": "bottomButton-annotate-TTA"
+		},
+		"protractorIcon": {
+			"type": "id",
+			"value": "bottomButton-annotate-protractor"
+		},
+		"measureTabIcon": {
+			"type": "id",
+			"value": "bottomButton-annotate-ruler"
+		},
+		"toggleRulers": {
+			"type": "id",
+			"value": "bottomButton-annotate-ruler-toggle"
+		},
+		"cropIcon": {
+			"type": "id",
+			"value": "bottomButton-crop"
+		},
+		"reassignIcon": {
+			"type": "css",
+			"value": "#viewerRightButtonPaneContent > div > table > tbody > tr > td:nth-child(2) > div > pacs-button > button.reassignStudyButton"
+		},
+		"shareIcon": {
+			"type": "css",
+			"value": "#viewerRightButtonPaneContent > div > table > tbody > tr > td:nth-child(3) > pacs-button > button.shareBtn"
+		},
+		"download": {
+			"type": "css",
+			"value": "#viewerRightButtonPaneContent > div > table > tbody > tr > td:nth-child(5) > pacs-button > button.downloadBtn"
+		},
+		"print": {
+			"type": "id",
+			"value": "Print"
+		},
+		"playIcon": {
+			"type": "css",
+			"value": "#imageCanvas > multi-frame-control > div > div > button.multi-frame-control-play-button.unselectable.play"
+		},
+		"pauseIcon": {
+			"type": "css",
+			"value": "#imageCanvas > multi-frame-control > div > div > button.multi-frame-control-play-button.unselectable:nth-child(2)"
+		},
+		"stepBack": {
+			"type": "css",
+			"value": "#imageCanvas > multi-frame-control > div > div > button.multi-frame-control-prev-button.unselectable"
+		},
+		"stepForward": {
+			"type": "css",
+			"value": "#imageCanvas > multi-frame-control > div > div > button.multi-frame-control-next-button.unselectable"
+		},
+		"captureIcon": {
+			"type": "css",
+			"value": "#imageCanvas > multi-frame-control > div > div > button.multi-frame-control-capture-button.unselectable"
+		},
+		"editFps": {
+			"type": "css",
+			"value": "#imageCanvas > multi-frame-control > div > div > div.multi-frame-control-fps-section"
+		},
+		"telemedicineList": {
+			"type": "id",
+			"value": "telemedicineIndicator"
+		},
+		"interactiveCollaboration": {
+			"type": "css",
+			"value": "#collaborationIndicator > a"
+		},
+		"collapseStudyIcon": {
+			"type": "css",
+			"value": "#s0 > div.StudyItem > div:nth-child(1) > pacs-button:nth-child(2) > div > a"
+		},
+		"expandStudyIcon": {
+			"type": "css",
+			"value": "#s0 > div.StudyItem > div:nth-child(1) > pacs-button:nth-child(3) > div > a"
+		},
+		"multiFrameDicomImage": {
+			"type": "css",
+			"value": "img.ng-scope.ng-isolate-scope.mCS_img_loaded"
+		},
+		"privateImage": {
+			"type": "css",
+			"value": "div.privateImage.ng-scope"
+		},
+		"singleModeIcon": {
+			"type": "css",
+			"value": "#viewerMode > div > pacs-button:nth-child(1) > button"
+		},
+		"compareModeIcon": {
+			"type": "css",
+			"value": "button[id='Compare Button']"
+		},
+		"imagedisplayFrame": {
+			"type": "id",
+			"value": "imageDisplayManagerFrame"
+		},
+		"imageCanvas": {
+			"type": "id",
+			"value": "imageCanvas"
+		},
+		"imageInImageViewer": {
+			"type": "css",
+			"value": "#imageContainer>div"
+		},
+		"caliberateMeasurement": {
+			"type": "css",
+			"value": "#popup-annotate-calibrate > div.calibrate-units.ng-binding"
+		}
+	},
+	"/AdvancedMeasurement": {
+		"TLPOMenu": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div"
+		},
+		"TLPOHelp": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-help"
+		},
+		"TLPOHelpSelected": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-help-selected"
+		},
+		"TLPOHelpClose": {
+			"type": "css",
+			"value": "#imageCanvas > div.help-section > div > div > div.help-content > div.help-close-button"
+		},
+		"TLPOHelpMenu": {
+			"type": "css",
+			"value": "#imageCanvas > div.help-section > div > div > div.help-content > div.ng-scope > div > div"
+		},
+		"TLPOHelpText": {
+			"type": "css",
+			"value": "#imageCanvas > div.help-section > div > div > div.help-content > div.ng-scope > div > div > div.help-title"
+		},
+		"HelpMenuExpanded": {
+			"type": "css",
+			"value": "#imageCanvas > div.help-section > div.collapse.in"
+		},
+		"TLPOColorsIcon": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color"
+		},
+		"TLPOColorsSelectedIcon": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color-selected"
+		},
+		"colorPicker": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color-selected > color-picker"
+		},
+		"TLPODelete": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-cancel"
+		},
+		"TLPOColorPicker": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color-selected > color-picker > div"
+		},
+		"TLPOCanvas": {
+			"type": "css",
+			"value": "#image-1"
+		},
+		"TLPORedColorPicker": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color-selected > color-picker > div > a.color-picker-red"
+		},
+		"TLPOYellowColorPicker": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color-selected > color-picker > div > a.color-picker-yellow"
+		},
+		"TLPOGreenColorPicker": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color-selected > color-picker > div > a.color-picker-green"
+		},
+		"TLPOBlueColorPicker": {
+			"type": "css",
+			"value": "#popup-annotate-options-container > tool-palette > div > div.tool-palette-button-area-vertical > div.tool-palette-color-selected > color-picker > div > a.color-picker-blue"
+		}
+	},
+	"/ReassignPage": {
+		"reassignDailog": {
+			"type": "id",
+			"value": "reassignStudyDialog"
+		},
+		"reassignDailogText": {
+			"type": "css",
+			"value": "#reassignStudyDialog > div.dialogTitlebar"
+		},
+		"reassignStudyText": {
+			"type": "css",
+			"value": "#reassignStudyDialog > div.dialogContent > p"
+		},
+		"reassignToTextBox": {
+			"type": "id",
+			"value": "studySearch"
+		},
+		"showInactiveCheckbox": {
+			"type": "css",
+			"value": "#reassignStudyDialog > div.dialogContent > div.reassignSearchWrap > span"
+		},
+		"showInactiveLabel": {
+			"type": "css",
+			"value": "#reassignStudyDialog > div.dialogContent > div.reassignSearchWrap > label:nth-child(4)"
+		},
+		"reassignSearchButton": {
+			"type": "id",
+			"value": "reassignSearchBtn"
+		},
+		"reassignClearButton": {
+			"type": "css",
+			"value": "#reassignStudyDialog > div.dialogContent > div.reassignSearchWrap > div > button:nth-child(2)"
+		},
+		"reassignSearchTable": {
+			"type": "css",
+			"value": "#reassignStudyDialog > div.dialogContent > div.patientTblWrap"
+		},
+		"reassignTablePatient": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr:nth-child(1) > th:nth-child(1)"
+		},
+		"reassignTablePMSPatientID": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr:nth-child(1) > th:nth-child(2)"
+		},
+		"reassignTablePACSPatientID": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr:nth-child(1) > th:nth-child(3)"
+		},
+		"reassignTableBreed": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr:nth-child(1) > th:nth-child(4)"
+		},
+		"reassignTableClientName": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr:nth-child(1) > th:nth-child(5)"
+		},
+		"reassignTableStatus": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr:nth-child(1) > th:nth-child(6)"
+		},
+		"reassignCloseButton": {
+			"type": "id",
+			"value": "closeReassign"
+		},
+		"reassignReassignButton": {
+			"type": "css",
+			"value": "#reassignStudyDialog > div.dialogFooter > pacs-button:nth-child(1) > button"
+		},
+		"reassignTableRow": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr.ng-scope"
+		},
+		"reassignTableStatusColumnByRowIndex": {
+			"type": "TEXTCSS",
+			"value": "#patientDataTbl > tbody > tr:nth-child(textToReplace) > td:nth-child(6)"
+		},
+		"reassignTableStatusColumnByIndex": {
+			"type": "TEXTCSS",
+			"value": "#patientDataTbl > tbody > tr:nth-child(3) > td:nth-child(textToReplace)"
+		},
+		"ReassignNoResultsText": {
+			"type": "css",
+			"value": "#patientDataTbl > tbody > tr:nth-child(3) > td.emptyTableStyling"
+		},
+		"ReassignAccept": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > footer > div > div.outerErrorOKButtonBorder > div"
+		},
+		"ReassignedAlert": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > header"
+		},
+		"reassignedStudy": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > div.errorMessageOuter > div > span"
+		},
+		"reassignedPatient": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > div.errorMessageOuter > div > div:nth-child(2) > span:nth-child(1)"
+		},
+		"reassignedPatientId": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > div.errorMessageOuter > div > div:nth-child(2) > span:nth-child(2) > span"
+		},
+		"reassignedSpecies": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > div.errorMessageOuter > div > div:nth-child(2) > span:nth-child(3)"
+		},
+		"reassignedAge": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > div.errorMessageOuter > div > div:nth-child(2) > span:nth-child(6)"
+		},
+		"reassignedClient": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > div.errorMessageOuter > div > div:nth-child(3) > span:nth-child(1)"
+		},
+		"reassignedClientId": {
+			"type": "css",
+			"value": "#reassignConfirmDialog > div.errorMessageOuter > div > div:nth-child(3) > span:nth-child(2)"
+		},
+		"noImageInViewer": {
+			"type": "css",
+			"value": "#PatientStudiesItem > div"
+		}
+	},
+	"/SettingsPage": {
+		"patientIdtab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(4) > div"
+		},
+		"pacsRadioButton": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div.patient-id-border.ng-scope > div > div:nth-child(4) > pacs-button > div > div.radio"
+		},
+		"pimsRadioButton": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div.patient-id-border.ng-scope > div > div:nth-child(3) > pacs-button > div > div.radio"
+		},
+		"saveButton": {
+			"type": "css",
+			"value": "#settingsButtonContainer > div > pacs-button:nth-child(1) > button"
+		},
+		"HomeTab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(1) > div"
+		},
+		"ImagetoolsTab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(2) > div"
+		},
+		"PracticeInfoTab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(3) > div"
+		},
+		"sendingImagesTab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(5) > div"
+		},
+		"recievingImagesTab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(6) > div"
+		},
+		"uploadLegacyImagesTab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(8) > div"
+		},
+		"lagacyImageDrivetab": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.menu_frame > div.leftpane_menu > div:nth-child(7) > div"
+		},
+		"uploadLegacyImages": {
+			"type": "css",
+			"value": "#legacyImageHeader > div > div.ib-card-bold-text.ib-float-left"
+		},
+		"forIdexxPacsCapture": {
+			"type": "css",
+			"value": "#legacyImageHeader > div > div:nth-child(2) > pacs-button > li > a"
+		},
+		"forOtherPacsSystem": {
+			"type": "css",
+			"value": "#legacyImageHeader > div > div:nth-child(3) > pacs-button > li > a"
+		},
+		"uploadLegacyImagesMessge": {
+			"type": "css",
+			"value": "#legacyImageDetails > div"
+		},
+		"SettingsPanelHeader": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div.dialogheader > div"
+		},
+		"printInstructions": {
+			"type": "css",
+			"value": "div.mCSB_container > div > div > pacs-button > button"
+		},
+		"shippingInstructions": {
+			"type": "css",
+			"value": "div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(1) > pacs-button > button"
+		},
+		"trackImages": {
+			"type": "css",
+			"value": "div.mCSB_container > div > ul:nth-child(3) > li:nth-child(3) > div > div:nth-child(1) > pacs-button > button"
+		},
+		"FIPRequirement": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > div > div"
+		},
+		"FIPPrinter": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(2) > li:nth-child(2)"
+		},
+		"FIPRemovable": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(2) > li:nth-child(1)"
+		},
+		"FIP3rdLine": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(2) > li:nth-child(3)"
+		},
+		"FIP1stheader": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(1) > div"
+		},
+		"FIP1stone": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(1)"
+		},
+		"FIP1stTwo": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(2)"
+		},
+		"FIP1stThree": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(3)"
+		},
+		"FIP1stFourr": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(4) > b"
+		},
+		"FIP2ndHeader": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(1) > div"
+		},
+		"FIP2ndSummary": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > div"
+		},
+		"FIP2ndOne": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(1)"
+		},
+		"FIP2ndTwo": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(2)"
+		},
+		"FIP2ndThree": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(3)"
+		},
+		"FIP2ndFour": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(4)"
+		},
+		"FIP3rdHeader": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(3) > div > div:nth-child(1) > div"
+		},
+		"FOPRequirement": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > div > div"
+		},
+		"FOPPrinter": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(2) > li:nth-child(2)"
+		},
+		"FOPRemovable": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(2) > li:nth-child(1)"
+		},
+		"FOP3rdLine": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(2) > li:nth-child(3)"
+		},
+		"FOP1stheader": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(1) > div"
+		},
+		"FOP1stone": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(1)"
+		},
+		"FOP1stTwo": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(2)"
+		},
+		"FOP1stThree": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(3)"
+		},
+		"FOP1stFourr": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(1) > div > div:nth-child(2) > div > ul > li:nth-child(4) > b"
+		},
+		"FOP2ndHeader": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(1) > div"
+		},
+		"FOP2ndSummary": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > div"
+		},
+		"FOP2ndOne": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(1)"
+		},
+		"FOP2ndTwo": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(2)"
+		},
+		"FOP2ndThree": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(3)"
+		},
+		"FOP2ndFour": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(2) > div > div:nth-child(2) > div > ul > li:nth-child(4)"
+		},
+		"FOP3rdHeader": {
+			"type": "css",
+			"value": "#legacyImageUploadContainer div.mCSB_container > div > ul:nth-child(3) > li:nth-child(3) > div > div:nth-child(1) > div"
+		}
+	},
+	"/PatientClientManagement": {
+		"toolsMenu": {
+			"type": "id",
+			"value": "toolsMenu"
+		},
+		"patientClientManagementTab": {
+			"type": "css",
+			"value": "#toolsMenu > a"
+		},
+		"headerPatientMenu": {
+			"type": "css",
+			"value": "#patientDrawerHandle > div.patientName.ng-binding"
+		},
+		"headerPatientName": {
+			"type": "css",
+			"value": "#patientDrawerHandle > div.patientName.ng-binding"
+		},
+		"headerSpeciesSymbol": {
+			"type": "css",
+			"value": "#patientDrawerHandle > div.patientSpeciesImage"
+		},
+		"headerclientName": {
+			"type": "css",
+			"value": "#openPatientDrawer > div:nth-child(1) > div.truncateLongName.ng-binding"
+		},
+		"headerBreedType": {
+			"type": "css",
+			"value": "#openPatientDrawer > div:nth-child(2)"
+		},
+		"headerGender": {
+			"type": "css",
+			"value": "#openPatientDrawer > div:nth-child(3)"
+		},
+		"patientClientDailog": {
+			"type": "id",
+			"value": "patientClientManager"
+		},
+		"patientClientHeader": {
+			"type": "css",
+			"value": "#patientClientManager > div > div.patient-client-dialog-header > div"
+		},
+		"PCMPatientIdLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.patient-client-patient-id-container > span"
+		},
+		"PCMPatientID": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.patient-client-patient-id-container > div"
+		},
+		"PCMActiveradio": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.ib-float-right > pacs-button:nth-child(1) > div > div.radio"
+		},
+		"PCMInactiveradio": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.ib-float-right > pacs-button:nth-child(2) > div > div.radio"
+		},
+		"PCMPencilIcon": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.ib-float-right > pacs-button:nth-child(3) > button.button-img-pencil"
+		},
+		"PCMEyeIcon": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.ib-float-right > pacs-button:nth-child(4) > button.button-img-review"
+		},
+		"PMCEyeIconDiv": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.ib-float-right > pacs-button:nth-child(4)"
+		},
+		"PMCPencilIconDiv": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-header > div.ib-float-right > pacs-button:nth-child(3)"
+		},
+		"PCMNameLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div:nth-child(1) > div.patient-client-patient-name-dob-container.ib-float-left.noedit > span"
+		},
+		"PCMSpeciesLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div:nth-child(1) > div.patient-client-patient-species-gender-container.ib-float-left.noedit > div:nth-child(1) > span.patient-client-patient-species-dob-label.noedit"
+		},
+		"PCMSpeciedBreedLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div:nth-child(1) > div.patient-client-patient-breed-container.ib-float-left.noedit > div.patient-client-label > span.patient-client-patient-breed-gender-label.noedit"
+		},
+		"PCMAgeLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-field-container.ib-float-left.noedit > div > span.patient-client-patient-name-age-label.noedit"
+		},
+		"PCMName": {
+			"type": "id",
+			"value": "patient-name"
+		},
+		"PCMSpecies": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div:nth-child(1) > div.patient-client-patient-species-gender-container.ib-float-left.noedit > div:nth-child(1) > span.patient-client-value.ng-binding"
+		},
+		"PCMBreed": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div:nth-child(1) > div.patient-client-patient-breed-container.ib-float-left.noedit > div.patient-client-label > span.patient-client-value.ng-binding"
+		},
+		"PCMAge": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-field-container.ib-float-left.noedit > div > span.patient-client-value.ng-binding.noedit"
+		},
+		"PCMDobLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-name-dob-container.ib-float-left.noedit > div:nth-child(1) > span"
+		},
+		"PCMDob": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-name-dob-container.ib-float-left.noedit > input"
+		},
+		"PCMgenderlabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-species-gender-container.ib-float-left > span.patient-client-patient-breed-gender-label.noedit"
+		},
+		"PCMGender": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-species-gender-container.ib-float-left > span.patient-client-value.ng-binding"
+		},
+		"PCMOPIDropDrown": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.clearfix.patient-client-patient-optional-info-header > pacs-button:nth-child(1) > button"
+		},
+		"PCMOPIDLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.clearfix.patient-client-patient-optional-info-header"
+		},
+		"PCMWeightInfoLabel": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-optional-info-container.noedit.patient-client-animate-show-noedit > div > div.patient-client-patient-weight-container.ib-float-left"
+		},
+		"PCMHDEDNumber": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-optional-info-container.noedit.patient-client-animate-show-noedit > div > div.patient-client-patient-hded-container.ib-float-left > span"
+		},
+		"PCMClientsModule": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-client-container"
+		},
+		"PCMClientModuleHeader": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-client-container > div.patient-client-client-header > span"
+		},
+		"PCMClientAdd": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-client-container > div.patient-client-client-header > pacs-button > button"
+		},
+		"PCMClose": {
+			"type": "css",
+			"value": "#patientClientManager > div > div.patient-client-footer > div > div > pacs-button:nth-child(2) > button"
+		},
+		"PCMSave": {
+			"type": "css",
+			"value": "#patientClientManager > div > div.patient-client-footer > div > div > pacs-button:nth-child(1) > button"
+		},
+		"PCMPrimaryRadio": {
+			"type": "css",
+			"value": "#colDetail0 > span.ng-scope.radio"
+		},
+		"PCMIDText": {
+			"type": "css",
+			"value": "#colDetail1 > input"
+		},
+		"PCMFirstNameText": {
+			"type": "css",
+			"value": "#colDetail2 > input"
+		},
+		"PCMLastnameText": {
+			"type": "css",
+			"value": "#colDetail3 > input"
+		},
+		"PCMEmailText": {
+			"type": "css",
+			"value": "#colDetail4 > input"
+		},
+		"PCMDelete": {
+			"type": "css",
+			"value": "#colDetail4 > a"
+		},
+		"PCMClientRow": {
+			"type": "id",
+			"value": "row0"
+		},
+		"PCMClientdelete": {
+			"type": "css",
+			"value": "#row0 > td.imGridCell.cellClient.colDetail5"
+		},
+		"speciesEdit": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div:nth-child(1) > div.patient-client-patient-species-gender-container.ib-float-left > div.patient-client-list.ng-isolate-scope"
+		},
+		"breedEdit": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div:nth-child(1) > div.patient-client-patient-breed-container.ib-float-left > div.patient-client-list.ng-isolate-scope"
+		},
+		"dobEdit": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-name-dob-container.ib-float-left"
+		},
+		"genderEdit": {
+			"type": "css",
+			"value": "#patientClientManager > div > form > div > div.patient-client-outer-container > div > div.patient-client-patient-detail.clearfix > div.patient-client-patient-detail-line.clearfix > div.patient-client-patient-species-gender-container.ib-float-left > div"
+		},
+		"PCMPopup": {
+			"type": "css",
+			"value": "#container > div > aside.errorMessageContainer"
+		},
+		"PCMPopupMessage": {
+			"type": "css",
+			"value": "#container > div > aside.errorMessageContainer > div.errorMessageOuter > div > div"
+		},
+		"PCMPopupOK": {
+			"type": "id",
+			"value": "Ok"
+		},
+		"ClientRows": {
+			"type": "css",
+			"value": "div.mCSB_container > table > tbody > tr"
+		},
+		"newClientDeletePopUP": {
+			"type": "css",
+			"value": "#container > div > aside.errorMessageContainer > div.errorMessageOuter > div > div:nth-child(1)"
+		},
+		"clientFirstName": {
+			"type": "css",
+			"value": "#colDetail2 > span.ng-binding"
+		},
+		"deleteNo": {
+			"type": "id",
+			"value": "No"
+		},
+		"deleteYes": {
+			"type": "id",
+			"value": "Yes"
+		},
+		"firstRow": {
+			"type": "id",
+			"value": "row0"
+		},
+		"secondRowPrimary": {
+			"type": "css",
+			"value": "#colDetail0 > span.ng-scope.radio.off"
+		}
+	},
+	"/FiltersPage": {
+		"last2Days": {
+			"type": "xpath",
+			"value": "//a[text()='Last 2 Days']"
+		},
+		"thisWeek": {
+			"type": "xpath",
+			"value": "//a[text()='This Week']"
+		},
+		"lastWeek": {
+			"type": "xpath",
+			"value": "//a[text()='Last Week']"
+		},
+		"dateRange": {
+			"type": "xpath",
+			"value": "//a[text()='Date Range']"
+		},
+		"reset": {
+			"type": "id",
+			"value": "reset"
+		},
+		"allSpecies": {
+			"type": "xpath",
+			"value": "//span[text()='All Species']"
+		},
+		"allDoctors": {
+			"type": "xpath",
+			"value": "//span[text()='All Doctors']"
+		},
+		"allModalities": {
+			"type": "xpath",
+			"value": "//span[text()='All Modalities']"
+		},
+		"emptySearchErrorMessage": {
+			"type": "id",
+			"value": "selectedDate"
+		},
+		"inTheLast2DaysRadio": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > div > pacs-button:nth-child(1) > div > div.radio"
+		},
+		"last2DaysText": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > div > pacs-button:nth-child(1) > div > div.button-radio-text"
+		},
+		"todayRadio": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > pacs-button > div > div.radio"
+		},
+		"todayRadioText": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > div"
+		},
+		"2DaysPlusIcon": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > div > pacs-button:nth-child(4) > div > button.adjustCountButton.add"
+		},
+		"2DaysMinusIcon": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > div > pacs-button:nth-child(5) > div > button.adjustCountButton.subtract"
+		},
+		"2DaysPlusIconDisabled": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > div > pacs-button:nth-child(5) > div > button.subtractCountButtonDisabled"
+		},
+		"2DaysMinusIconDisabled": {
+			"type": "css",
+			"value": "#container > div.settingsModal.ng-scope > div > div.innerSettingsDialogNew > div.middleSettingsDialog > div:nth-child(2) > div.content_wrapper > div > div > div:nth-child(1) > div > div > div > div > div > pacs-button:nth-child(5) > div > button.subtractCountButtonDisabled"
+		},
+		"todayTab": {
+			"type": "xpath",
+			"value": "//a[text()='Today']"
+		},
+		"lastDaysTab": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > pacs-button:nth-child(1) > li > div > a"
+		},
+		"startDateInput": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > div > div > div.ix-calendar-select-date-header.ng-scope > div.ix-calendar-select-date-header-fields > input.ix-calendar-select-date-input.ng-pristine.ng-valid.ix-calendar-select-date-input-focused"
+		},
+		"endDateInput": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > div > div > div.ix-calendar-select-date-header.ng-scope > div.ix-calendar-select-date-header-fields > input:nth-child(2)"
+		},
+		"saveButton": {
+			"type": "css",
+			"value": "#settingsButtonContainer > div > pacs-button:nth-child(1) > button"
+		},
+		"closeButton": {
+			"type": "css",
+			"value": "#settingsButtonContainer > div > pacs-button:nth-child(2) > button"
+		},
+		"calenderMonth": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > div > div > div.ix-calendar-month-year-header > div:nth-child(1) > div.ix-calendar-month"
+		},
+		"cancelDate": {
+			"type": "css",
+			"value": "#header > div.dateButtons > ul > div > div > div.ix-calendar-button-area > div > pacs-button:nth-child(2) > button"
+		},
+		"allSpeciesDiv": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(2) > div.dropdownListSection"
+		},
+		"allDoctorsDiv": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(3) > div.dropdownListSection"
+		},
+		"allModalitiesDiv": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(4) > div.dropdownListSection"
+		},
+		"allSpeciesSelected": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(2) > div.dropdownListSection > span"
+		},
+		"allDoctorsSelected": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(3) > div.dropdownListSection > span"
+		},
+		"allModalitiesSelected": {
+			"type": "css",
+			"value": "#dropDownHeader > section > div:nth-child(4) > div.dropdownListSection > span"
+		},
+		"dropDownSelect": {
+			"type": "TEXT",
+			"value": "//a/span[text()='textToReplace']"
+		},
+		"patientCard": {
+			"type": "id",
+			"value": "patientCard"
+		}
+	},
+	"/ClinicSettingsPage": {
+		"clinicPracticeInfoPanel": {
+			"type": "css",
+			"value": "div[ng-include=\"'idexx/settings/practiceinfo/practice-settings.html'\"]"
+		},
+		"clinicEditPencilIcon": {
+			"type": "css",
+			"value": "#practiceSettings > div:nth-child(2) > div > div.practice-card-container-top > form > div > pacs-button > button.button-img-pencil"
+		},
+		"clinicEditEyeIcon": {
+			"type": "css",
+			"value": "#practiceSettings > div:nth-child(2) > div > div.practice-card-container-top > form > div > div:nth-child(4) > pacs-button:nth-child(1) > button.button-img-review"
+		},
+		"clinicEditCommitIcon": {
+			"type": "css",
+			"value": "#practiceSettings > div:nth-child(2) > div > div.practice-card-container-top > form > div > div:nth-child(4) > pacs-button:nth-child(2) > button"
+		},
+		"clinicEditUndo": {
+			"type": "css",
+			"value": "#practiceSettings > div:nth-child(2) > div > div.practice-card-container-top > form > div > div:nth-child(5) > pacs-button:nth-child(1) > button"
+		},
+		"clinicEditCommit": {
+			"type": "css",
+			"value": "#practiceSettings > div:nth-child(2) > div > div.practice-card-container-top > form > div > div:nth-child(5) > pacs-button:nth-child(2) > button"
+		},
+		"clinicName": {
+			"type": "css",
+			"value": "#practiceSettings > div:nth-child(2) > div > div.practice-card-container-top > form > div > div.input-container > input"
+		},
+		"clinicStreetAddress": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div:nth-child(2) > div > input.ib-input.practice-input-field-long.addrLine.ng-pristine.ng-valid"
+		},
+		"clinicCity": {
+			"type": "css",
+			"value": "#practiceSettingsCity > input"
+		},
+		"clinicZipCode": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div:nth-child(6) > div > input"
+		},
+		"clinicCountryDropDown": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div:nth-child(1) > div > div#genericDropDown"
+		},
+		"clinicStateDropDown": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div:nth-child(4) > div > div#genericDropDown"
+		},
+		"cityPhone": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div.input-container.ng-scope > input:nth-child(2)"
+		},
+		"cityFax": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div.input-container.ng-scope > input:nth-child(3)"
+		},
+		"cityPhoneDelete": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div.input-container.ng-scope > span > pacs-button:nth-child(1)"
+		},
+		"cityPhoneIcon": {
+			"type": "css",
+			"value": "form[name='practiceSettingsForm'] > div.practice-card-section > div.input-container.ng-scope > span > pacs-button:nth-child(2)"
+		},
+		"editDiv": {
+			"type": "css",
+			"value": "#practiceSettings > div:nth-child(2) > div > div.practice-card-container-top > form > div > div.input-container"
+		},
+		"PCMPopup": {
+			"type": "css",
+			"value": "#container > div > aside.errorMessageContainer"
+		},
+		"PCMPopupNo": {
+			"type": "id",
+			"value": "No"
+		},
+		"PCMPopupYes": {
+			"type": "id",
+			"value": "Yes"
+		},
+		"PopUpMessage": {
+			"type": "css",
+			"value": "#container > div.dialogOverlay.show.modal.ng-scope > aside > div.errorMessageOuter > div > div"
+		},
+		"MeasureMentInInchesRadio": {
+			"type": "css",
+			"value": "#imageToolsSettingsRadioButtonWrapper > pacs-button:nth-child(1) > div > div.radio"
+		},
+		"MeasureMentInMMRadio": {
+			"type": "css",
+			"value": "#imageToolsSettingsRadioButtonWrapper > pacs-button:nth-child(2) > div > div.radio"
+		}
+	},
+	"/RecievingImages": {
+		"RecievingImagesMessage": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div.ib-card-bold-text.ng-binding"
+		},
+		"RecievingImagesCheckbox": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div.receive-dicom-pims-patient-id-section > span"
+		},
+		"RICheckboxLabel": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div.receive-dicom-pims-patient-id-section > label"
+		},
+		"collapseIcon": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > pacs-button:nth-child(1) > div > a"
+		},
+		"labelDiv": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div.receive-dicom-pims-patient-id-section"
+		},
+		"expandIcon": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > pacs-button:nth-child(2) > div > a"
+		},
+		"addLocalModalitiesButton": {
+			"type": "css",
+			"value": "#receiveDicomSettings > div.addLocalModality > pacs-button > button"
+		},
+		"AETitleText": {
+			"type": "id",
+			"value": "addedAETitle"
+		},
+		"InstitutionNameTextbox": {
+			"type": "css",
+			"value": "input[ng-model='modality.idexxDicomApplicationEntityDTO.instituteName']"
+		},
+		"modalityDropDown": {
+			"type": "css",
+			"value": "div[dropdownid='modalityDropDown0']"
+		},
+		"registerButton": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(1) > td.ib-flipEdit > table > tbody > tr > td.ib-card-content.ib-card-content-outer.ib-round-right-4px.ib-modality-command-wrapper.ib-local-modality-right-side.ib-local-modality-register-width > div > table > tbody > tr > td:nth-child(1) > pacs-button > button"
+		},
+		"secondrowEdit": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(3) > td.my-show-hide-animation > table > tbody > tr > td.ib-card-content.ib-card-content-outer.ib-round-right-4px.ib-modality-command-wrapper.ib-local-modality-right-side.ib-local-modality-edit-width > div > table > tbody > tr > td:nth-child(1) > pacs-button > button"
+		},
+		"registeredCheckmark": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(1) > td.my-show-hide-animation > table > tbody > tr > td:nth-child(1) > div > table > tbody > tr:nth-child(2) > td.ib-local-modality-status > div.ib-checkmark.ib-local-modality-icon"
+		},
+		"NonregisteredCheckmark": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(3) > td.my-show-hide-animation > table > tbody > tr > td:nth-child(1) > div > table > tbody > tr:nth-child(2) > td.ib-local-modality-status > div.ib-xmark.ib-local-modality-icon"
+		},
+		"ModalitySelectedText": {
+			"type": "xpath",
+			"value": "//div[@dropdownid='modalityDropDown0']//div[@id='selectedOption'][2]"
+		},
+		"selectByText": {
+			"type": "TEXT",
+			"value": "//a/span[contains(text(),'textToReplace')]"
+		},
+		"noOfModalitiesAdded": {
+			"type": "xpath",
+			"value": "//table[@class='ib-local-modality-container']/tbody//tr[@ng-repeat-start='modality in localModalitiesCtrl.modalityList']"
+		},
+		"registeredHeader": {
+			"type": "xpath",
+			"value": "//table/tbody/tr[1]/td[2]/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td[4]/div[2][contains(text(),'Registered')]"
+		},
+		"unregistedHeader": {
+			"type": "xpath",
+			"value": "//table/tbody/tr[1]/td[2]/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td[4]/div[2][contains(text(), 'Unregistered')]"
+		},
+		"ModalityDeleteIcon": {
+			"type": "css",
+			"value": "button.ng-scope.ng-binding.button-img-delete"
+		},
+		"LastModalityDeleteIcon": {
+			"type": "xpath",
+			"value": "(//table[@class='ib-local-modality-container']/tbody//tr[@ng-repeat-start='modality in localModalitiesCtrl.modalityList']//button[@class='ng-scope ng-binding button-img-delete'])[last()]"
+		},
+		"unregisterCross": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(1) > td.my-show-hide-animation > table > tbody > tr > td:nth-child(1) > div > table > tbody > tr:nth-child(2) > td.ib-local-modality-status > div.ib-xmark.ib-local-modality-icon"
+		},
+		"ModalityUnSpecified": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(1) > td.my-show-hide-animation > table > tbody > tr > td:nth-child(1) > div > table > tbody > tr:nth-child(2) > td:nth-child(3) > div.ib-unspecified.ng-binding"
+		},
+		"AETitleUnspecified": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(1) > td.my-show-hide-animation > table > tbody > tr > td:nth-child(1) > div > table > tbody > tr:nth-child(2) > td.ib-local-modality-ae-label > div.ib-unspecified.ng-binding"
+		},
+		"InstitutionNameUnspecified": {
+			"type": "css",
+			"value": "table > tbody > tr:nth-child(1) > td.my-show-hide-animation > table > tbody > tr > td:nth-child(1) > div > table > tbody > tr:nth-child(2) > td:nth-child(2) > div.ib-unspecified.ng-binding"
+		},
+		"FirstModalityDeleteIcon": {
+			"type": "xpath",
+			"value": "//table[@class='ib-local-modality-container']/tbody//tr[@ng-repeat-start='modality in localModalitiesCtrl.modalityList']//button[@class='ng-scope ng-binding button-img-delete']"
+		}
+	},
+	"/SendingImages": {
+		"AETitlePencil": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div:nth-child(5) > pacs-button > button"
+		},
+		"AETitleLabel": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div:nth-child(5) > div:nth-child(1)"
+		},
+		"AETitle": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div:nth-child(5) > div.ib-disabled-input.ib-card-text.ib-float-left.ng-pristine.ng-untouched.ng-valid.ng-binding.ng-valid-maxlength"
+		},
+		"AddPartnerContainer": {
+			"type": "id",
+			"value": "addPartnerContainer"
+		},
+		"AETitleRequired": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div.ib-float-left.clinicAETitleContainer > div.ib-card-text.ib-float-left.ng-binding"
+		},
+		"AETitleHideIcon": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > pacs-button:nth-child(1) > div > a.button-card-up-arrow.button-card-small"
+		},
+		"AETitleExpandIcon": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > pacs-button:nth-child(2) > div > a.button-card-down-arrow.button-card-small"
+		},
+		"AETitleHideButton": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > pacs-button:nth-child(1)"
+		},
+		"AETitleExpandButton": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > pacs-button:nth-child(2)"
+		},
+		"AETitleErrorMessage": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > form > div > div.ib-card-text-emphasize.ib-float-left.ng-binding"
+		},
+		"AddPartnerButton": {
+			"type": "css",
+			"value": "#addPartnerContainer > pacs-button > button"
+		},
+		"CloseSendingimages": {
+			"type": "css",
+			"value": "#settingsButtonContainer > div > pacs-button:nth-child(2) > button"
+		},
+		"partnerNameTextbox": {
+			"type": "css",
+			"value": "#focusInput0"
+		},
+		"selectSharingMethod": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div:nth-child(1) > div.ib-card-content-outer.ib-round-left-5px.ib-float-left.ib-leftCardMargins.ib-partnerlist-detail > div > div:nth-child(3) > div.ib-shareList.ng-isolate-scope > div"
+		},
+		"deleteIcon": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div:nth-child(1) > div.ib-card-content-outer.ib-round-right-5px.ib-float-left.ib-partnerlist-command > div > div > pacs-button:nth-child(2) > button"
+		},
+		"SaveIcon": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div:nth-child(1) > div.ib-card-content-outer.ib-round-right-5px.ib-float-left.ib-partnerlist-command > div > div > pacs-button:nth-child(1) > button"
+		},
+		"EmailTextBox": {
+			"type": "css",
+			"value": "#focusEmail0"
+		},
+		"selectEmailOption": {
+			"type": "css",
+			"value": "form[name='partnerForm'] li:nth-child(3) > a > span"
+		},
+		"selectTelemedicineCase": {
+			"type": "css",
+			"value": "form[name='partnerForm'] li:nth-child(2) > a > span"
+		},
+		"selectDicomCase": {
+			"type": "css",
+			"value": "form[name='partnerForm'] li:nth-child(1) > a > span"
+		},
+		"instructionsDiv": {
+			"type": "id",
+			"value": "contentInstructionDetail"
+		},
+		"instructionsDivText": {
+			"type": "css",
+			"value": "#contentInstructionDetail > div > div"
+		},
+		"AETitleText": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > form > div > input"
+		},
+		"AETitledSave": {
+			"type": "css",
+			"value": "#contentInstructionHeader > div > div:nth-child(5)"
+		},
+		"firstRowIncomplete": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div:nth-child(2) > div.ib-card-content-outer.ib-round-left-5px.ib-float-left.ib-leftCardMargins.ib-partnerlist-detail > div > div.ib-partner-status > div.ib-card-text-emphasize.ng-binding"
+		},
+		"firstRowEditIcon": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div:nth-child(2) > div.ib-partnerlist-command.ib-card-content-outer.ib-round-right-5px.ib-float-left > div > div > pacs-button:nth-child(1) > button"
+		},
+		"secondRowEditIcon": {
+			"type": "css",
+			"value": "form > div:nth-child(2) > div:nth-child(2) > div.ib-partnerlist-command.ib-card-content-outer.ib-round-right-5px.ib-float-left > div > div > pacs-button:nth-child(1) > button"
+		},
+		"secondRowPartnerNameText": {
+			"type": "css",
+			"value": "#focusInput1"
+		},
+		"secondRowEmailText": {
+			"type": "css",
+			"value": "#focusEmail1"
+		},
+		"firstColumn": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div:nth-child(2) > div.ib-card-content-outer.ib-round-left-5px.ib-float-left.ib-leftCardMargins.ib-partnerlist-detail > div > div.ib-card-text.ib-partnerName.ng-pristine.ng-untouched.ng-valid.ng-binding"
+		},
+		"secondColumn": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div:nth-child(2) > div.ib-card-content-outer.ib-round-left-5px.ib-float-left.ib-leftCardMargins.ib-partnerlist-detail > div > div.ib-float-left.ib-dicomShare.ng-binding"
+		},
+		"noOfRecords": {
+			"type": "css",
+			"value": "form > div > div:nth-child(2) > div:nth-child(1)"
+		},
+		"deletePopup": {
+			"type": "css",
+			"value": "#container > div.dialogOverlay.show.modal.ng-scope > aside"
+		},
+		"deletePopupYes": {
+			"type": "id",
+			"value": "Yes"
+		},
+		"deletePopupNo": {
+			"type": "id",
+			"value": "No"
+		},
+		"firstRowEditMode": {
+			"type": "css",
+			"value": "form > div:nth-child(1) > div[ng-show='partner.editing']:nth-child(1)"
+		},
+		"partnerByText": {
+			"type": "TEXT",
+			"value": "//div[contains(text(), 'textToReplace')]"
+		},
+		"partnerDeleteByText": {
+			"type": "TEXT",
+			"value": "//div[contains(text(), 'textToReplace')]/../../../div[2]//pacs-button[2]/button"
+		}
+	},
+	"/MessageCenterPage": {
+		"messageCenterUnreadCount": {
+			"type": "css",
+			"value": "span.message-list-unread-count.ng-binding"
+		},
+		"messageCenterLink": {
+			"type": "id",
+			"value": "ui-id-8"
+		},
+		"sentMessagesLink": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.message-center-tabs > pacs-button:nth-child(2) > li > a"
+		},
+		"sentMessagesText": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.message-list-tab-outer-border.ng-scope > div:nth-child(1)"
+		},
+		"sentMessagesTo": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colHeader0"
+		},
+		"sentMessagesSubject": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colHeader1"
+		},
+		"sentMessagedCreated": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colHeader2"
+		},
+		"sentMessagesSent": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colHeader3"
+		},
+		"sentMessagesRecalled": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colHeader4"
+		},
+		"sentMessagesTotalSent": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colHeader5"
+		},
+		"HorizantalLine": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.message-list-tab-outer-border.ng-scope > div.message-list-tab-button-area"
+		},
+		"ShowAllDropDown": {
+			"type": "css",
+			"value": "div.message-list-tab-outer-border.ng-scope > div.sent-messages-filter-container > div.sent-messages-drop-down > div#genericDropDown > div#selectedOption:nth-child(2)"
+		},
+		"optionAll": {
+			"type": "css",
+			"value": "div.sent-messages-filter-container div#genericDropDown > div > ul > div > div > li:nth-child(1) > a"
+		},
+		"optionToday": {
+			"type": "css",
+			"value": "div.sent-messages-filter-container div#genericDropDown > div > ul > div > div > li:nth-child(2) > a"
+		},
+		"optionLast7Days": {
+			"type": "css",
+			"value": "div.sent-messages-filter-container div#genericDropDown > div > ul > div > div > li:nth-child(3) > a"
+		},
+		"optionLast2Weeks": {
+			"type": "css",
+			"value": "div.sent-messages-filter-container div#genericDropDown > div > ul > div > div > li:nth-child(4) > a"
+		},
+		"optionLast30Days": {
+			"type": "css",
+			"value": "div.sent-messages-filter-container div#genericDropDown > div > ul > div > div > li:nth-child(5) > a"
+		},
+		"optionLast3Months": {
+			"type": "css",
+			"value": "div.sent-messages-filter-container div#genericDropDown > div > ul > div > div > li:nth-child(6) > a"
+		},
+		"tableFirstRow": {
+			"type": "css",
+			"value": "#row0"
+		},
+		"viewMessageButton": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.message-list-tab-outer-border.ng-scope > div.message-list-tab-button-area > div > pacs-button:nth-child(1) > button"
+		},
+		"recallMessageButton": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.message-list-tab-outer-border.ng-scope > div.message-list-tab-button-area > div > pacs-button:nth-child(2) > button"
+		},
+		"viewContentTab": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.create-message-outer-border.ng-scope > div.message-center-tabs > pacs-button:nth-child(3) > li > a"
+		},
+		"viewRecipientTab": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.create-message-outer-border.ng-scope > div.message-center-tabs > pacs-button:nth-child(2) > li > a"
+		},
+		"viewSentMessagesCancel": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.create-message-outer-border.ng-scope > div.ng-scope.ng-isolate-scope > div.recipients-button-area > pacs-button:nth-child(2) > button"
+		},
+		"firstRowTotalsentText": {
+			"type": "css",
+			"value": "#row0 > td.imGridCell.cellToolTip.colDetail5"
+		},
+		"messageListContainerTitle": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-title-container > div.message-list-title"
+		},
+		"messageListContainerCount": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-title-container > div.message-list-count-container"
+		},
+		"titleBar": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-title-container"
+		},
+		"messageToolBar": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container"
+		},
+		"messageListContainer": {
+			"type": "css",
+			"value": "div.message-list-container.message-list-slide-in-out.ng-scope"
+		},
+		"messagecheckBoxByIndex": {
+			"type": "TEXTCSS",
+			"value": "div.mCSB_container > div:nth-child(textToReplace) div.message-list-list-row-checkbox > span"
+		},
+		"unreadIndicatorByIndex": {
+			"type": "TEXTCSS",
+			"value": "div.mCSB_container > div:nth-child(textToReplace) div.message-list-unread-indicator"
+		},
+		"messageRow": {
+			"type": "css",
+			"value": "div.mCSB_container > div.ng-scope.message-list-list-row-normal"
+		},
+		"messageRowByIndex": {
+			"type": "TEXTCSS",
+			"value": "div.mCSB_container > div.ng-scope.message-list-list-row-normal:nth-child(textToReplace)"
+		},
+		"messageListBellIcon": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-list-container > div.message-list-list-header > div.message-list-notification-icon"
+		},
+		"messageListNotificationLabel": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-list-container > div.message-list-list-header > div.message-list-notification-label"
+		},
+		"messageList": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-list-container > div.message-list-list-body.mCustomScrollbar"
+		},
+		"alertMessage": {
+			"type": "css",
+			"value": "div.ng-scope.message-list-list-row-important"
+		},
+		"messageTitle": {
+			"type": "css",
+			"value": "div.message-list-select-message-area > div.message-list-text-container > div[class*='ng-binding message-list-subject']"
+		},
+		"messageDate": {
+			"type": "css",
+			"value": "div.message-list-select-message-area > div.message-list-text-container > div.message-list-date.ng-binding"
+		},
+		"messageCheckbox": {
+			"type": "css",
+			"value": "div.message-list-list-row-checkbox > span"
+		},
+		"messageDeleteCross": {
+			"type": "css",
+			"value": "div.message-list-delete-icon"
+		},
+		"alertMessageIcon": {
+			"type": "css",
+			"value": "div.ng-scope.message-list-list-row-important > div.message-list-select-message-area > div.message-list-important-icon"
+		},
+		"alertMessageText": {
+			"type": "css",
+			"value": "div.ng-scope.message-list-list-row-important > div.message-list-select-message-area > div.message-list-text-container > div:nth-child(1)"
+		},
+		"alertMessageDeleteIcon": {
+			"type": "css",
+			"value": "div.message-list-list-row-important > div:nth-child(4) > div.message-list-delete-icon.ng-hide"
+		},
+		"selectAllDiv": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container > div.message-list-toolbar-selection-toggle"
+		},
+		"selectAllCheckbox": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container > div.message-list-toolbar-selection-toggle > span"
+		},
+		"deleteAllIcon": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container > div.message-list-toolbar-tools > pacs-button:nth-child(1) > button"
+		},
+		"markAsUnread": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container > div.message-list-toolbar-tools > pacs-button:nth-child(2) > button"
+		},
+		"markAsRead": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container > div.message-list-toolbar-tools > pacs-button:nth-child(3) > button"
+		},
+		"showUnreadOnly": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container > div.message-list-toolbar-unread-toggle > span"
+		},
+		"showUnreadOnlyLabel": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-list-container.message-list-slide-in-out.ng-scope > div.message-list-inner-container > div.message-list-toolbar-container > div.message-list-toolbar-unread-toggle > label"
+		},
+		"unreadMessageGreenIcon": {
+			"type": "css",
+			"value": "div.message-list-select-message-area > div.message-list-unread-indicator"
+		},
+		"alertMessagePanel": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div"
+		},
+		"alertMessagePanelCloseIcon": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-right-button-area > pacs-button:nth-child(4) > button"
+		},
+		"SentSortDown": {
+			"type": "css",
+			"value": "div[id*='sent-messages-grid'] > div.tableHeader > table > thead > tr > th.headerText.colHeader3.sortDown"
+		},
+		"sentMessagedRecalledSortDown": {
+			"type": "css",
+			"value": "div[id*='sent-messages-grid'] > div.tableHeader > table > thead > tr > th.headerText.colHeader4.sortDown"
+		},
+		"ToSortDown": {
+			"type": "css",
+			"value": "div[id*='sent-messages-grid'] > div.tableHeader > table > thead > tr > th.headerText.colHeader0.sortDown"
+		},
+		"SubjectSortDown": {
+			"type": "css",
+			"value": "div[id*='sent-messages-grid'] > div.tableHeader > table > thead > tr > th.headerText.colHeader1.sortDown"
+		},
+		"SentSortUp": {
+			"type": "css",
+			"value": "div[id*='sent-messages-grid'] > div.tableHeader > table > thead > tr > th.headerText.colHeader3.sortUp"
+		},
+		"firstRowTotalSent": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colDetail5 > span.ng-binding"
+		},
+		"messageViewPanel": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div"
+		},
+		"MVPAlertIcon": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.dialogTitlebar.message-details-title-container > div.message-details-alert-icon"
+		},
+		"MVPAlerttext": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.dialogTitlebar.message-details-title-container > div.ng-binding.message-details-alert-title"
+		},
+		"MVPAlertSent": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-header > div:nth-child(1).message-details-date"
+		},
+		"MVPAlertMessageExpires": {
+			"type": "css",
+			"value": "div.mCSB_container.mCS_y_hidden.mCS_no_scrollbar_y > div > div > p:nth-child(4) > i"
+		},
+		"MVPAlertMessage": {
+			"type": "css",
+			"value": "div.mCSB_container.mCS_y_hidden.mCS_no_scrollbar_y > div > div > p:nth-child(1)"
+		},
+		"MVPNext": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-left-button-area > pacs-button:nth-child(2) > button"
+		},
+		"MVPPrevious": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-left-button-area > pacs-button:nth-child(1) > button"
+		},
+		"MVPClose": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-right-button-area > pacs-button:nth-child(4) > button"
+		},
+		"MVPmarkAsunread": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-right-button-area > pacs-button:nth-child(1) > button"
+		},
+		"MVPDeleteIcon": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-right-button-area > pacs-button:nth-child(3) > button"
+		},
+		"MVPmarkAsunreadDiv": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-right-button-area > pacs-button:nth-child(1)"
+		},
+		"MVPDeleteIconDiv": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.message-details-button-area > div.message-details-right-button-area > pacs-button:nth-child(3)"
+		},
+		"MVPmessageIcon": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.dialogTitlebar.message-details-title-container > div.message-details-notification-icon"
+		},
+		"MVPMessageTitle": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.ng-scope > div > div.message-details-inner-border > div.dialogTitlebar.message-details-title-container > div.ng-binding.message-details-title"
+		},
+		"viewSentMessagesTab": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.message-center-tabs > pacs-button:nth-child(3) > li > a"
+		},
+		"viewReciepientsTab": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.create-message-outer-border.ng-scope > div.message-center-tabs > pacs-button:nth-child(2) > li > a"
+		},
+		"viewContentButton": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.create-message-outer-border.ng-scope > div.ng-scope.ng-isolate-scope > div.recipients-button-area > pacs-button:nth-child(3) > button"
+		},
+		"viewCancelButton": {
+			"type": "css",
+			"value": "#tabs-10 > div > div.create-message-outer-border.ng-scope > div.ng-scope.ng-isolate-scope > div.recipients-button-area > pacs-button:nth-child(2) > button"
+		},
+		"viewContentTitle": {
+			"type": "css",
+			"value": "div.compose-message-outer-border > form > div.compose-message-title > input"
+		},
+		"viewContentRecalledLabel": {
+			"type": "css",
+			"value": "div.compose-message-outer-border > form > div.compose-message-title > label.compose-message-title-recalled.ng-scope"
+		},
+		"viewContentClose": {
+			"type": "css",
+			"value": "div.compose-message-outer-border > div.compose-message-button-area > div.compose-message-right-button-area > pacs-button:nth-child(4) > button"
+		}
+	},
+	"/notificaitonPanel": {
+		"notificationIcon": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages"
+		},
+		"notificationPanel": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div.message-center-popover-outer"
+		},
+		"panelLeftHeading": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div > div.message-center-popover-title > span.message-center-popover-title-left"
+		},
+		"panelRightHeading": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div.message-icon-no-messages.ng-scope.message-icon-new-messages > div > div.message-center-popover-title > span.message-center-popover-title-right"
+		},
+		"panelAlertMessage": {
+			"type": "css",
+			"value": "div.message-center-popover-message.ng-scope > div.message-center-popover-message-important > div"
+		},
+		"panelFirstMessage": {
+			"type": "css",
+			"value": "div.message-center-popover-message.ng-scope > div.message-center-popover-message-odd > div"
+		},
+		"panelFirstMessageDelete": {
+			"type": "css",
+			"value": "div.message-center-popover-message.ng-scope > div.message-center-popover-message-odd > span.message-center-popover-message-close-icon"
+		},
+		"firstRowTotalSent": {
+			"type": "css",
+			"value": "form[id*='form-sent-messages-grid'] #colDetail5 > span.ng-binding"
+		}
+	},
+	"/SupportPage": {
+		"idexxLogo": {
+			"type": "css",
+			"value": "body > div > header > a > img"
+		},
+		"introduction": {
+			"type": "css",
+			"value": "body > div > header > h1"
+		},
+		"contentSignup": {
+			"type": "css",
+			"value": "body > div > ng-view > div"
+		},
+		"content1": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > p:nth-child(3)"
+		},
+		"content2": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > ul > li:nth-child(1)"
+		},
+		"content3": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > ul > li:nth-child(2)"
+		},
+		"content4": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > ul > li:nth-child(3)"
+		},
+		"content5": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > p.ng-binding"
+		},
+		"viewerImage": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > img"
+		},
+		"content6": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > p.high-contrast-text"
+		},
+		"minTechReqLink": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-2 > article > p:nth-child(9) > a"
+		},
+		"copyRightText": {
+			"type": "css",
+			"value": "body > div > footer > span"
+		},
+		"emailTextbox": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-1 > form > label > input"
+		},
+		"agreeCheckBox": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-1 > form > div.action-wrapper > label > input"
+		},
+		"beginFreeTrailButton": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-1 > form > div.action-wrapper > button"
+		},
+		"content7": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-1 > form > div.action-wrapper > p:nth-child(5)"
+		},
+		"content8": {
+			"type": "css",
+			"value": "body > div > ng-view > div > div.column-1 > form > div.action-wrapper > p:nth-child(6)"
+		}
+	},
+	"/ClinicActivationPage": {
+		"clinicActivationLink": {
+			"type": "id",
+			"value": "ui-id-2"
+		},
+		"clinicSearchTextBox": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(2) > form > label > input"
+		},
+		"searchIcon": {
+			"type": "id",
+			"value": "CheckClinicButton"
+		},
+		"activationTab": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ul > li:nth-child(1) > a"
+		},
+		"trialEmailLogTab": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ul > li.ng-scope.active > a"
+		},
+		"imageUploadTab": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ul > li:nth-child(3) > a"
+		},
+		"reportsLink": {
+			"type": "id",
+			"value": "ui-id-1"
+		},
+		"clinicIdLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > label:nth-child(1) > span:nth-child(1)"
+		},
+		"clinicIdValue": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > label:nth-child(1) > span:nth-child(2)"
+		},
+		"clinicNameLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > label:nth-child(2) > span"
+		},
+		"clinicNameText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > label:nth-child(2) > input"
+		},
+		"clinicEmailLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > label:nth-child(3) > span"
+		},
+		"clinicEmailText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > label:nth-child(3) > input"
+		},
+		"storageLevelLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > label.has-dropdown > span"
+		},
+		"storageLevelDropdown": {
+			"type": "id",
+			"value": "selectedOption"
+		},
+		"50casesRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(4) > span.radio"
+		},
+		"50casesRadioText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(4) > span.labelText"
+		},
+		"50PluscasesRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(5) > span.radio"
+		},
+		"50PluscasesRadioText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(5) > span.labelText"
+		},
+		"150casesRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(6) > span.radio"
+		},
+		"150casesRadioText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(6) > span.labelText"
+		},
+		"unlimitedCasesRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(7) > span.radio"
+		},
+		"unlimitedCasesRadioText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(7) > span.labelText"
+		},
+		"demoModeRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(8) > span.radio"
+		},
+		"demoModeRadioText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(1) > li:nth-child(8) > span.labelText"
+		},
+		"notActivatedRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(1) > span.radio"
+		},
+		"notActivatedText": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(1) > span.labelText"
+		},
+		"imageBankradioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(2) > span.radio"
+		},
+		"imageBankLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(2) > span.labelText"
+		},
+		"idexxPacsRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(3) > span.radio"
+		},
+		"idexxPacsLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(3) > span.labelText"
+		},
+		"freeTrialRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > span.radio"
+		},
+		"freeTrialLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > span.labelText"
+		},
+		"14DaysRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(1) > span.radio"
+		},
+		"14DaysLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(1) > span.labelText"
+		},
+		"60DaysRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(2) > span.radio"
+		},
+		"60DaysLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(2) > span.labelText"
+		},
+		"90DaysRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(3) > span.radio"
+		},
+		"90DaysLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(3) > span.labelText"
+		},
+		"customRadioButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(4) > span.radio"
+		},
+		"customLabel": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.activationLevelContainer > ul:nth-child(2) > li:nth-child(9) > div > div.trial-duration-select-container > p:nth-child(4) > span.labelText"
+		},
+		"saveButton": {
+			"type": "id",
+			"value": "saveButton"
+		},
+		"cancelButton": {
+			"type": "css",
+			"value": "div.clinicActivationContent > section:nth-child(4) > tabset > div > ng-transclude > tab:nth-child(1) > div > form > div.button-container.center > button[name='cancelButton']"
+		},
+		"activationLevel": {
+			"type": "css",
+			"value": "#headerWrapper > header > div > div.colored-button-container.colored-button-container-ibpacs > div:nth-child(8) > div"
+		}
+	},
+	"/ImportedImages": {
+		"downArrow": {
+			"type": "id",
+			"value": "toolsMenu"
+		},
+		"toolsMenu": {
+			"type": "id",
+			"value": "toolsMenuMenu"
+		},
+		"patientClientMangementLink": {
+			"type": "css",
+			"value": "#toolsMenu > a"
+		},
+		"importFilesLink": {
+			"type": "css",
+			"value": "#toolsMenuImport > a"
+		},
+		"recoverDeletedImages": {
+			"type": "css",
+			"value": "#toolsMenuRestoreImage > a"
+		},
+		"importFileDaiolog": {
+			"type": "id",
+			"value": "import-file-dialog"
+		},
+		"placeInSameSeriesRadioButton": {
+			"type": "css",
+			"value": "#import-file-dialog > article > section > pacs-button:nth-child(2) > div > div.radio"
+		},
+		"okButton": {
+			"type": "css",
+			"value": "#import-file-dialog > footer > div > pacs-button:nth-child(1) > div > input[type='file']:nth-child(1)"
+		},
+		"importFilesOk": {
+			"type": "css",
+			"value": "#progress-dialog > footer > div > pacs-button:nth-child(1) > button"
+		},
+		"teleMedicineTab": {
+			"type": "css",
+			"value": "#tabs > ul > li.ng-scope.newShareTabs.telemedicineShareTabUnselected"
+		}
+	},
+	"/TeleMedicinePage": {
+		"teleMedicineTab": {
+			"type": "css",
+			"value": "#tabs > ul > li.ng-scope.newShareTabs.telemedicineShareTabUnselected"
+		},
+		"messageone": {
+			"type": "css",
+			"value": "#teleView > form > article > section > p > span"
+		},
+		"messageTwo": {
+			"type": "css",
+			"value": "#teleView > form > article > section > span"
+		},
+		"telemedicineSend": {
+			"type": "css",
+			"value": "#shareWidgetPanel > footer > pacs-button:nth-child(1) > button"
+		},
+		"telemedicineCancel": {
+			"type": "css",
+			"value": "#shareWidgetPanel > footer > pacs-button:nth-child(2) > button"
+		},
+		"vetMedFirstNext": {
+			"type": "id",
+			"value": "HolderMain_HolderRequest_btnOK"
+		},
+		"radiologyServicesCheckbox": {
+			"type": "id",
+			"value": "chk15"
+		},
+		"vetMedSecondNext": {
+			"type": "id",
+			"value": "HolderMain_HolderRequest_ucSelectServiceTable_btnOK"
+		},
+		"vetMedThirdNext": {
+			"type": "id",
+			"value": "HolderMain_HolderRequest_ucQuestionTable1_btnNext"
+		},
+		"exoticsRadioGraphOnly": {
+			"type": "css",
+			"value": "#HolderMain_HolderRequest_ucQuestionTable1_checkbox--2579--1--EXOTIC RADIOGRAPHS"
+		},
+		"selectServiceType": {
+			"type": "css",
+			"value": "#HolderMain_HolderRequest_ucSelectServiceTable_services_AngularServices_0 > div.serviceTypeAndPriorityOptions > select"
+		},
+		"nonurgentRadion": {
+			"type": "id",
+			"value": "rb10_30_470"
+		},
+		"patientClinicalHistoryText": {
+			"type": "id",
+			"value": "txtCaseNotes"
+		},
+		"privateComments": {
+			"type": "id",
+			"value": "txtNotesToSpec"
+		},
+		"vetMedFourthNext": {
+			"type": "id",
+			"value": "HolderMain_HolderRequest_btnOK"
+		},
+		"vetMedFifthNext": {
+			"type": "id",
+			"value": "HolderMain_HolderRequest_ucUpload_btnNext"
+		},
+		"submitCase": {
+			"type": "id",
+			"value": "HolderMain_HolderRequest_btnSubmit"
+		},
+		"submittedCases": {
+			"type": "xpath",
+			"value": "//table[@id='HolderMain_ucGridCasesSent_gvSent']/tbody/tr/td[2]"
+		},
+		"lastsubmittedCases": {
+			"type": "TEXT",
+			"value": "//table[@id='HolderMain_ucGridCasesSent_gvSent']/tbody/tr[textToReplace]/td[2]"
+		},
+		"submittedCaseNumber": {
+			"type": "id",
+			"value": "HolderMain_ucGridCasesSent_gvSent_lblTR_0"
+		},
+		"vetMedLogout": {
+			"type": "css",
+			"value": "#SiteToolsLinks > ul > li.logout > a"
+		},
+		"exoticsLink": {
+			"type": "css",
+			"value": "#Container > render:nth-child(4) > form > table:nth-child(4) > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(11) > td:nth-child(2) > a"
+		},
+		"equineTera": {
+			"type": "css",
+			"value": "#HolderMain_HolderRequest_ucQuestionTable1_EQUINELARGEANIMALSTELERADIOLOGYSERVICES_EQUINETELERADIOLOGY > legend"
+		},
+		"additionEqa": {
+			"type": "css",
+			"value": "#ADDITIONALAXIALBODYSTUDY > legend"
+		},
+		"additionalStudies": {
+			"type": "css",
+			"value": "#HolderMain_HolderRequest_ucQuestionTable1_radiobutton--2375--1--EQ ADDTL AXIAL STUDY--25"
+		},
+		"trads": {
+			"type": "css",
+			"value": "#Container > render:nth-child(4) > form > table:nth-child(4) > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(3) > td:nth-child(2) > a"
+		},
+		"doCliamByCaseid": {
+			"type": "TEXT",
+			"value": "//td[contains(text(), 'textToReplace')]/../td/a"
+		},
+		"typeReportButton": {
+			"type": "css",
+			"value": "#TypeReportButton > input[type='submit']:nth-child(1)"
+		},
+		"typeReportTextArea": {
+			"type": "id",
+			"value": "ReportText"
+		},
+		"xsendButton": {
+			"type": "id",
+			"value": "btnSend"
+		},
+		"myWorkListLink": {
+			"type": "id",
+			"value": "WorklistController"
+		},
+		"workListPencilIcon": {
+			"type": "css",
+			"value": "#ui-accordion-accordionCases-panel-0 > li > div.caseHeader > ul.indicators > li.open.button.ui-state-default > a"
+		},
+		"vmsUsername": {
+			"type": "id",
+			"value": "HolderMain_Login1_UserName"
+		},
+		"vmsPassword": {
+			"type": "id",
+			"value": "HolderMain_Login1_Password"
+		},
+		"vmsSubmit": {
+			"type": "id",
+			"value": "HolderMain_Login1_LoginButton"
+		},
+		"paperClipIcon": {
+			"type": "id",
+			"value": "telemedicineIndicator"
+		},
+		"telemedicineDailog": {
+			"type": "id",
+			"value": "telemedCaseDialog"
+		},
+		"caseNumberId": {
+			"type": "id",
+			"value": "colHeader0"
+		},
+		"type": {
+			"type": "id",
+			"value": "colHeader1"
+		},
+		"Status": {
+			"type": "id",
+			"value": "colHeader2"
+		},
+		"requestedDate": {
+			"type": "id",
+			"value": "colHeader3"
+		},
+		"viewCaseButton": {
+			"type": "css",
+			"value": "#telemedCaseDialog > footer > div > pacs-button:nth-child(1) > button"
+		},
+		"viewReportButton": {
+			"type": "css",
+			"value": "#telemedCaseDialog > footer > div > pacs-button:nth-child(2) > button"
+		},
+		"telemedicineStatusByCase": {
+			"type": "TEXT",
+			"value": "//span[contains(text(), 'textToReplace')]/../../../td[3]/div"
+		},
+		"telemedicineCompleteDiv": {
+			"type": "id",
+			"value": "colDetail0"
+		},
+		"telemedicineContainer": {
+			"type": "css",
+			"value": "#imageDialog > div:nth-child(3) > div.telemedicine-view-container.ng-scope"
+		},
+		"reportsTab": {
+			"type": "css",
+			"value": "#imageDialog > div.ng-scope.telemedicine-view-tabs-container > div.telemedicine-view-tabs-bar-container > div > div.telemedicine-view-report-tab-container > div > div:nth-child(2)"
+		},
+		"contactSpecialistTab": {
+			"type": "css",
+			"value": "#imageDialog > div.ng-scope.telemedicine-view-tabs-container > div.telemedicine-view-tabs-bar-container > div > div.telemedicine-view-specialist-tab-container > div > div:nth-child(2)"
+		},
+		"requestedBy": {
+			"type": "id",
+			"value": "selectedOption"
+		},
+		"firstRequestedBy": {
+			"type": "xpath",
+			"value": "//div[@class='telemed-specialist-dropdown-container']//ul//div/li/a"
+		},
+		"caseNumber": {
+			"type": "css",
+			"value": "#imageDialog > div:nth-child(3) > div.telemedicine-view-container.ng-scope > header > div.telemedicine-view-content > p"
+		},
+		"listAllCases": {
+			"type": "css",
+			"value": "#imageDialog > div:nth-child(3) > div.telemedicine-view-container.ng-scope > header > div.telemedicine-view-list > div:nth-child(2)"
+		},
+		"closeTelemedicine": {
+			"type": "css",
+			"value": "#imageDialog > div:nth-child(3) > div.telemedicine-view-container.ng-scope > header > div.telemedicine-view-close"
+		},
+		"viewAllCasesDailog": {
+			"type": "id",
+			"value": "telemedCaseDialog"
+		}
+	},
+	"/MultiFrameDicom": {
+		"cropPopup": {
+			"type": "id",
+			"value": "popup-crop-prompt"
+		},
+		"cropAccept": {
+			"type": "css",
+			"value": "#popup-crop-prompt > div.annotation-text-button-wrapper > input.annotation-text-button.accept-button"
+		},
+		"cropDelete": {
+			"type": "css",
+			"value": "#popup-crop-prompt > div.annotation-text-button-wrapper > input.annotation-text-button.cancel-button"
+		},
+		"cropText": {
+			"type": "css",
+			"value": "#popup-crop-prompt > div.calibrate-prompt-text"
+		},
+		"imageIFrame": {
+			"type": "id",
+			"value": "imageDisplayManagerFrame"
+		},
+		"importFileDaiolog": {
+			"type": "id",
+			"value": "import-file-dialog"
+		},
+		"placeInSameSeriesRadioButton": {
+			"type": "css",
+			"value": "#import-file-dialog > article > section > pacs-button:nth-child(2) > div > div.radio"
+		},
+		"okButton": {
+			"type": "css",
+			"value": "#import-file-dialog > footer > div > pacs-button:nth-child(1) > div > input[type='file']:nth-child(1)"
+		},
+		"importFilesOk": {
+			"type": "css",
+			"value": "#progress-dialog > footer > div > pacs-button:nth-child(1) > button"
+		},
+		"teleMedicineTab": {
+			"type": "css",
+			"value": "#tabs > ul > li.ng-scope.newShareTabs.telemedicineShareTabUnselected"
+		}
+	}
+}
