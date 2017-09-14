@@ -1,0 +1,3 @@
+target/*
+test-output/
+Logger_Log4j.log
