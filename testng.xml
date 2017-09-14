@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count="10">
+
+	<test name="ToolsQA" group-by-instances="true">
+
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+
+			<class name="com.myjava.test.NewTest" />
+
+		</classes>
+
+	</test>
+
+</suite>

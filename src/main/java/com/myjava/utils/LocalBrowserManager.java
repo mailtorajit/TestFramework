@@ -5,15 +5,18 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
 public class LocalBrowserManager {
 	public static WebDriver localDriver;
 	public static String browserType = "";
 	public static String osVersion = "";
 	public static boolean remoteBrowser = false;
 	/*
-	 * intitializing local webdriver with passing argument as browser name.
-	 * Passing all driver paths inside set property file.
+	 * intitializing local webdriver with passing argument as browser name. Passing
+	 * all driver paths inside set property file.
 	 */
 
 	public static void initializeDriver(String browser) {
@@ -46,7 +49,15 @@ public class LocalBrowserManager {
 				} else {
 					System.setProperty("webdriver.gecko.driver", "./src/main/resources/testdriver/geckodriver.exe");
 				}
-				localDriver = new FirefoxDriver();
+				DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+				FirefoxOptions options = new FirefoxOptions();
+
+				options.addPreference("log", "{level: trace}");
+
+				capabilities.setCapability("marionette", true);
+				capabilities.setCapability("moz:firefoxOptions", options);
+
+				localDriver = new FirefoxDriver(capabilities);				
 				localDriver.manage().window().maximize();
 				browserType = "firefox";
 				// return localDriver;

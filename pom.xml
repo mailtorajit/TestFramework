@@ -19,7 +19,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium.version>3.0.1</selenium.version>
 		<fitnesse.version>20151230</fitnesse.version>
-		<fitnesse.port>8000</fitnesse.port>
+		<fitnesse.port>8002</fitnesse.port>
 		<fitnesse.sut.port>8001</fitnesse.sut.port>
 		<fitnesse.expiration>0</fitnesse.expiration>
 		<orgjson.version>20140107</orgjson.version>
@@ -177,5 +177,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>	
 </project>
