@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="methods" thread-count="10">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" parallel="methods" thread-count="10">
+ <listeners>
+         <listener class-name="com.myjava.utils.TestNGCustomReportListener" />
+    </listeners>
+ 
+	<test name="ToolsQA">
 
-	<test name="ToolsQA" group-by-instances="true">
-
-		<parameter name="browser" value="firefox" />
+		   <parameter name="browser" value="firefox" />
 
 		<classes>
 
