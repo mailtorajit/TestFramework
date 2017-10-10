@@ -1,5 +1,7 @@
 package com.myjava.utils;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -31,6 +33,7 @@ public class LocalBrowserManager {
 				}
 				localDriver = new ChromeDriver();
 				localDriver.manage().window().maximize();
+				localDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				browserType = "chrome";
 				// return localDriver;
 			} else if (browser.equalsIgnoreCase("ie")) {
@@ -41,6 +44,7 @@ public class LocalBrowserManager {
 				}
 				localDriver = new InternetExplorerDriver();
 				localDriver.manage().window().maximize();
+				localDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				browserType = "ie";
 				// return localDriver;
 			} else if (browser.equalsIgnoreCase("firefox")) {
@@ -59,6 +63,7 @@ public class LocalBrowserManager {
 
 				localDriver = new FirefoxDriver(capabilities);				
 				localDriver.manage().window().maximize();
+				localDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				browserType = "firefox";
 				// return localDriver;
 			} else if (browser.equalsIgnoreCase("edge")) {
@@ -70,6 +75,7 @@ public class LocalBrowserManager {
 				}
 				localDriver = new EdgeDriver();
 				localDriver.manage().window().maximize();
+				localDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				browserType = "edge";
 				// return localDriver;
 			} else {
@@ -78,7 +84,7 @@ public class LocalBrowserManager {
 		} catch (WebDriverException e) {
 			Log.error("No Matching browser found", e);
 			localDriver = startChromeDriver(browser);
-
+			localDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 	}
 

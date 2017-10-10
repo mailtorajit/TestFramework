@@ -1,0 +1,1 @@
+java -cp target\test-classes;src\main\test\*;C:\Users\rajkumar_surabhi\.m2\* org.testng.TestNg testng.xml
