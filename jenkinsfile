@@ -2,6 +2,7 @@ node {
    echo 'Hello World'
    
     stage('run') {
+	 git url: 'https://github.com/mailtorajit/TestFramework.git'
     // some block
     echo 'inside run'
 }
