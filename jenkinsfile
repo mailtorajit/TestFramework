@@ -5,6 +5,9 @@ node {
 	 git url: 'https://github.com/mailtorajit/TestFramework.git'
     // some block
     echo 'inside run'
+	echo "PATH = ${PATH}"
+    echo "M2_HOME = ${M2_HOME}"
+	bat "mvn compile"
 }
 
    stage('deploy') {
