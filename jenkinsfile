@@ -1,0 +1,14 @@
+node {
+   echo 'Hello World'
+   
+    stage('run') {
+    // some block
+    echo 'inside run'
+}
+
+   stage('deploy') {
+    // some block
+    echo 'inside stage'
+}
+
+}
