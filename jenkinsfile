@@ -12,7 +12,7 @@ node {
 	stage('SonarQube analysis') {
 		
     script {
-             scannerHome = tool 'SonarScanner';
+             scannerHome = tool 'My SonarQube Server';
         }
      withSonarQubeEnv('SonarQube') {
          bat "${scannerHome}/bin/sonar-scanner.bat" 
