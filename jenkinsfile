@@ -10,11 +10,10 @@ node {
 	bat 'mvn compile'
 }
 	stage('SonarQube analysis') {
-		
-	    def scannerHome = tool 'SonarQube Scanner 3.0.3.778';
-    	withSonarQubeEnv('My SonarQube Server') {
-      	sh "${scannerHome}/bin/sonar-scanner"
-    	}
+		def scannerHome = tool 'SonarQube Scanner 3.0.3.778';
+		withSonarQubeEnv('My SonarQube Server'){
+			sh "${scannerHome}/bin/sonar-scanner"
+		}
   }
    stage('deploy') {
     // some block
