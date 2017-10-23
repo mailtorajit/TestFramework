@@ -9,12 +9,12 @@ node {
     //echo "M2_HOME = ${M2_HOME}"
 	bat 'mvn compile'
 }
-stage('SonarQube analysis') {
-    // requires SonarQube Scanner 3.0.3.778+
-    def scannerHome = tool 'SonarQube Scanner 3.0.3.778';
-    withSonarQubeEnv('My SonarQube Server') {
-      sh "${scannerHome}/bin/sonar-scanner"
-    }
+	stage('SonarQube analysis') {
+		
+	    def scannerHome = tool 'SonarQube Scanner 3.0.3.778';
+    	withSonarQubeEnv('My SonarQube Server') {
+      	sh "${scannerHome}/bin/sonar-scanner"
+    	}
   }
    stage('deploy') {
     // some block
