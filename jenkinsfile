@@ -10,10 +10,9 @@ node {
 	bat 'mvn compile'
 }
 	stage('SonarQube analysis') {
-		
-    script {
-             scannerHome = tool 'My SonarQube Server';
-        }
+            def scannerHome = tool 'My SonarQube Server';
+			echo "Scanner home is"
+			echo scannerHome
      withSonarQubeEnv('SonarQube Scanner') {
          bat "${scannerHome}/bin/sonar-scanner.bat" 
   
