@@ -14,7 +14,7 @@ node {
     script {
              scannerHome = tool 'My SonarQube Server';
         }
-     withSonarQubeEnv('SonarQube') {
+     withSonarQubeEnv('SonarQube Scanner') {
          bat "${scannerHome}/bin/sonar-scanner.bat" 
   
     }
