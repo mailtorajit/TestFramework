@@ -9,7 +9,13 @@ node {
     //echo "M2_HOME = ${M2_HOME}"
 	bat 'mvn compile'
 }
-
+stage('SonarQube analysis') {
+    // requires SonarQube Scanner 2.8+
+    def scannerHome = tool 'SonarQube Scanner 2.8';
+    withSonarQubeEnv('My SonarQube Server') {
+      sh "${scannerHome}/bin/sonar-scanner"
+    }
+  }
    stage('deploy') {
     // some block
     echo 'inside stage'
