@@ -12,9 +12,9 @@ node {
 	stage('SonarQube analysis') {
 		def scannerHome = tool 'SonarQube Scanner 3.0.3.778';
 		withSonarQubeEnv('My SonarQube Server'){
-			sh "${scannerHome}/bin/sonar-scanner"
-		}
-  }
+			bat "${scannerHome}/bin/sonar-scanner.bat"
+			}
+			}
    stage('deploy') {
     // some block
     echo 'inside stage'
