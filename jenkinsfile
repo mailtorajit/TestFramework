@@ -20,9 +20,14 @@ node {
         bat "${scannerHome}/bin/sonar-scanner.bat" 
     	}
 	}
+	stage('test execute'){
+		echo 'inside test'
+		bat 'mvn test'
+	}
    	stage('deploy') {
     	// some block
-    	echo 'inside stage'
+    	echo 'inside deploy'
+    	bat 'mvn deploy'
 	}
 
 }
