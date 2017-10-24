@@ -1,27 +1,28 @@
 node {
    echo 'Hello World'
    
-    stage('run') {
+    stage('checkout') {
 	 git url: 'https://github.com/mailtorajit/TestFramework.git'
     // some block
     echo 'inside run'
-	echo "PATH = ${PATH}"
-    //echo "M2_HOME = ${M2_HOME}"
-	bat 'mvn compile'
-}
+	
+	}
+	stage('compile'){
+		echo "PATH = ${PATH}"
+    	//echo "M2_HOME = ${M2_HOME}"
+		bat 'mvn compile'
+	}
 	stage('SonarQube analysis') {
-            def scannerHome = tool 'My SonarQube Server';
-			echo "Scanner home is"
-			echo scannerHome
-     withSonarQubeEnv('SonarQube Scanner') {
-         bat "${scannerHome}/bin/sonar-scanner.bat" 
-  
-    }
-
-			}
-   stage('deploy') {
-    // some block
-    echo 'inside stage'
-}
+       	def scannerHome = tool 'My SonarQube Server';
+       	echo "Scanner home is"
+		echo scannerHome
+     	withSonarQubeEnv('SonarQube Scanner') {
+        bat "${scannerHome}/bin/sonar-scanner.bat" 
+    	}
+	}
+   	stage('deploy') {
+    	// some block
+    	echo 'inside stage'
+	}
 
 }
