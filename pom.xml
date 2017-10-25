@@ -200,6 +200,31 @@
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.3.7.v20160115</version>
 			</plugin>
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.5.1</version>
+				<executions>
+					<execution>
+						<id>default-deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<serverId>nexus</serverId>
+					<nexusUrl>http://localhost:8081/repository/nexus-snapshots/</nexusUrl>
+					<skipStaging>true</skipStaging>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+   <repository>
+      <id>nexus-deploy</id>
+      <url>http://localhost:8081/repository/nexus-snapshots/</url>
+   </repository>
+</distributionManagement>
 </project>
