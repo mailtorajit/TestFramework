@@ -22,12 +22,12 @@ node {
 	}
 	stage('test execute'){
 		echo 'inside test'
-		bat 'mvn test'
+		bat 'mvn test -Dmaven.compile.skip=true'
 	}
    	stage('deploy') {
     	// some block
     	echo 'inside deploy'
-    	bat 'mvn deploy'
+    	bat 'mvn deploy -Dmaven.compile.skip=true -Dmaven.test.skip=true'
 	}
 
 }
