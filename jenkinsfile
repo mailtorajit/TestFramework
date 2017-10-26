@@ -20,6 +20,13 @@ node {
         bat "${scannerHome}/bin/sonar-scanner.bat" 
     	}
 	}
+	stage('publish unit test coverage') {
+     steps {
+        sh './jenkins_build.sh'
+        junit '*/build/test-results/*.xml'
+        step( [ $class: 'JacocoPublisher' ] )
+     }
+}
 	sleep(10)
 	 stage("SonarQube Quality Gate") { 
         timeout(time: 30, unit: 'SECONDS') { 
