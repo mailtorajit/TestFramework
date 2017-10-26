@@ -222,9 +222,9 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-   <repository>
-      <id>nexus-deploy</id>
-      <url>http://localhost:8081/repository/nexus-snapshots/</url>
-   </repository>
-</distributionManagement>
+		<repository>
+			<id>nexus-deploy</id>
+			<url>http://localhost:8081/repository/nexus-snapshots/</url>
+		</repository>
+	</distributionManagement>
 </project>
