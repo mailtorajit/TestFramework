@@ -21,7 +21,7 @@ node {
     	}
 	}
 	stage('publish unit test coverage') {
-        junit '*/build/test-results/*.xml'
+        junit '*/test-output/junitreports/*.xml'
         step( [ $class: 'JacocoPublisher' ] )
     
 }
