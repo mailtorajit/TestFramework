@@ -41,6 +41,11 @@ node {
         }
         echo "================================================================================================="
     }
+    step([$class: 'JacocoPublisher',
+      execPattern:'**/**.exec',
+      classPattern: '**/classes',
+      sourcePattern: '**/src/main/java'])
+      
 	stage('test execute'){
 		echo 'inside test'
 		bat 'mvn test -Dmaven.compile.skip=true'
