@@ -13,26 +13,33 @@ node {
 		bat 'mvn compile'
 	}
 	stage('SonarQube analysis') {
+		echo "================================================================================================="
        	def scannerHome = tool 'My SonarQube Server';
        	echo "Scanner home is"
 		echo scannerHome
+		//https://blog.sonarsource.com/breaking-the-sonarqube-analysis-with-jenkins-pipelines/
      	withSonarQubeEnv('SonarQube Scanner') {
-        bat "${scannerHome}/bin/sonar-scanner.bat" 
+        bat "${scannerHome}/bin/sonar-scanner.bat"
+        echo "=================================================================================================" 
     	}
 	}
 	stage('publish unit test coverage') {
+		echo "================================================================================================="
         junit 'test-output/junitreports/*.xml'
         step( [ $class: 'JacocoPublisher' ] )
+        echo "================================================================================================="
     
 }
 	sleep(10)
-	 stage("SonarQube Quality Gate") { 
+	 stage("SonarQube Quality Gate") {
+	 	echo "=================================================================================================" 
         timeout(time: 30, unit: 'SECONDS') { 
            def qg = waitForQualityGate() 
            if (qg.status != 'OK') {
              error "Pipeline aborted due to quality gate failure: ${qg.status}"
            }
         }
+        echo "================================================================================================="
     }
 	stage('test execute'){
 		echo 'inside test'
