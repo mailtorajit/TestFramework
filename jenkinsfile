@@ -8,15 +8,20 @@ node {
 	
 	}
 	stage('clean project'){
+		echo "=============================cleaning the project======================================================="
 		echo "PATH = ${PATH}"
     	//echo "M2_HOME = ${M2_HOME}"
 		bat 'mvn clean'
+		echo "================================================================================================="
 	}
 	stage('compile'){
+		echo "==============================compiling the project================================================="
 		echo "PATH = ${PATH}"
     	//echo "M2_HOME = ${M2_HOME}"
 		bat 'mvn compile'
+		echo "================================================================================================="
 	}
+
 	stage('SonarQube analysis') {
 		echo "================================================================================================="
        	def scannerHome = tool 'My SonarQube Server';
@@ -46,15 +51,16 @@ node {
         }
         echo "================================================================================================="
     }
-    step([$class: 'JacocoPublisher',
-      execPattern:'**/**.exec',
-      classPattern: '**/classes',
-      sourcePattern: '**/src/main/java'])
-      
+    
 	stage('test execute'){
 		echo 'inside test'
 		bat 'mvn test -Dmaven.compile.skip=true'
 	}
+	step([$class: 'JacocoPublisher',
+      execPattern:'**/target/coverage-reports/*.exec',
+      classPattern: '**/classes',
+      sourcePattern: '**/src/main/java'])
+      
    	stage('deploy') {
     	// some block
     	echo 'inside deploy'
