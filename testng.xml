@@ -11,7 +11,7 @@
 
 		<classes>
 
-			<class name="com.myjava.test.FirstTestCase2" />
+			<class name="com.myjava.test.NewTest"/>
 
 		</classes>
 

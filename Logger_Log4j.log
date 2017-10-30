@@ -1,4 +1,8 @@
-2017-09-15 16:14:23,796 TestNG-test=ToolsQA-2 INFO  utils.Log - ==================================firefox
-2017-09-15 16:14:23,796 TestNG-test=ToolsQA-1 INFO  utils.Log - ==================================firefox
-2017-09-15 16:14:23,805 TestNG-test=ToolsQA-1 INFO  utils.Log - Windows 10
-2017-09-15 16:14:23,805 TestNG-test=ToolsQA-2 INFO  utils.Log - Windows 10
+2017-10-30 15:11:59,667 pool-1-thread-2 INFO  utils.Log - ==================================firefox
+2017-10-30 15:11:59,667 pool-1-thread-1 INFO  utils.Log - ==================================firefox
+2017-10-30 15:11:59,683 pool-1-thread-1 INFO  utils.Log - Windows 10
+2017-10-30 15:11:59,683 pool-1-thread-2 INFO  utils.Log - Windows 10
+2017-10-30 15:12:29,743 pool-1-thread-1 INFO  utils.Log - ==================================firefox
+2017-10-30 15:12:29,743 pool-1-thread-1 INFO  utils.Log - Windows 10
+2017-10-30 15:12:30,458 pool-1-thread-2 INFO  utils.Log - ==================================firefox
+2017-10-30 15:12:30,458 pool-1-thread-2 INFO  utils.Log - Windows 10
