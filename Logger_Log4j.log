@@ -1,8 +1,8 @@
-2017-10-30 15:11:59,667 pool-1-thread-2 INFO  utils.Log - ==================================firefox
-2017-10-30 15:11:59,667 pool-1-thread-1 INFO  utils.Log - ==================================firefox
-2017-10-30 15:11:59,683 pool-1-thread-1 INFO  utils.Log - Windows 10
-2017-10-30 15:11:59,683 pool-1-thread-2 INFO  utils.Log - Windows 10
-2017-10-30 15:12:29,743 pool-1-thread-1 INFO  utils.Log - ==================================firefox
-2017-10-30 15:12:29,743 pool-1-thread-1 INFO  utils.Log - Windows 10
-2017-10-30 15:12:30,458 pool-1-thread-2 INFO  utils.Log - ==================================firefox
-2017-10-30 15:12:30,458 pool-1-thread-2 INFO  utils.Log - Windows 10
+2017-11-01 13:55:35,701 pool-1-thread-2 INFO  utils.Log - ==================================firefox
+2017-11-01 13:55:35,701 pool-1-thread-1 INFO  utils.Log - ==================================firefox
+2017-11-01 13:55:35,715 pool-1-thread-1 INFO  utils.Log - Windows 10
+2017-11-01 13:55:35,715 pool-1-thread-2 INFO  utils.Log - Windows 10
+2017-11-01 13:56:09,808 pool-1-thread-2 INFO  utils.Log - ==================================firefox
+2017-11-01 13:56:09,808 pool-1-thread-2 INFO  utils.Log - Windows 10
+2017-11-01 13:56:12,396 pool-1-thread-1 INFO  utils.Log - ==================================firefox
+2017-11-01 13:56:12,396 pool-1-thread-1 INFO  utils.Log - Windows 10
