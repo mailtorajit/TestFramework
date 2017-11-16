@@ -22,6 +22,10 @@ node {
 		echo "================================================================================================="
 	}
 
+	stage('test execute'){
+		echo 'inside test'
+		bat 'mvn test -Dmaven.compile.skip=true'
+	}
 	stage('SonarQube analysis') {
 		echo "================================================================================================="
        	def scannerHome = tool 'My SonarQube Server';
@@ -33,13 +37,7 @@ node {
         echo "=================================================================================================" 
     	}
 	}
-	//stage('publish unit test coverage') {
-		//echo "================================================================================================="
-        //junit 'test-output/junitreports/*.xml'
-        //step( [ $class: 'JacocoPublisher' ] )
-        //echo "================================================================================================="
-    
-//}
+	
 	sleep(10)
 	 stage("SonarQube Quality Gate") {
 	 	echo "=================================================================================================" 
@@ -52,10 +50,7 @@ node {
         echo "================================================================================================="
     }
     
-	stage('test execute'){
-		echo 'inside test'
-		bat 'mvn test -Dmaven.compile.skip=true'
-	}
+	
 	step([$class: 'JacocoPublisher',
       execPattern:'**/target/coverage-reports/*.exec',
       classPattern: '**/classes',
@@ -66,5 +61,7 @@ node {
     	echo 'inside deploy'
     	bat 'mvn deploy -Dmaven.compile.skip=true -Dmaven.test.skip=true'
 	}
-
+	stage("deploy to tomcat"){
+		bat 'ruby sshconn.rb'
+	}
 }

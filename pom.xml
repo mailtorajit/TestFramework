@@ -216,6 +216,7 @@
 					<serverId>nexus</serverId>
 					<nexusUrl>http://localhost:8081/repository/nexus-snapshots/</nexusUrl>
 					<skipStaging>true</skipStaging>
+					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
 			
