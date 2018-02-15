@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" name="Failed suite [Test Suite]" parallel="methods">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]" parallel="methods">
   <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="com.myjava.utils.TestNGCustomReportListener"/>
   </listeners>
+  <test name="ToolsQA">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.myjava.test.NewTest"/>
+    </classes>
+  </test> <!-- ToolsQA -->
   <test name="ToolsQA(failed)" parallel="methods">
     <parameter name="browser" value="chrome"/>
     <classes>

@@ -22,42 +22,38 @@ td,th {border:1px solid #009;padding:.25em .5em}
 </style>
 </head>
 <body>
-<center><h1>TestNG Customized Report - 2018/02/15 12:47:45</h1></center><table cellspacing="0" cellpadding="0" class="testOverview">
+<center><h1>TestNG Customized Report - 2018/02/15 16:50:45</h1></center><table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th># skipped</th><th># failed</th><th>Browser</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total<br/>Time(hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
 <tr><th colspan="10">Test Suite</th></tr>
 <tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>ToolsQA</b></a></td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">null</td></td>
-<td class="numi">12:47:45</td></td>
-<td class="numi">12:47:45</td></td>
+<td class="numi">04:50:45</td></td>
+<td class="numi">04:50:45</td></td>
 <td class="numi">00:00:00</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th>Exception Info</th><th>Start Time </th><th>Execution Time<br/>(hh:mm:ss)</th></tr>
 <tr><th colspan="5">Test Suite</th></tr>
 <tr id="t1"><th colspan="5">ToolsQA &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">com.myjava.test.NewTest</td><td><a href="#m1"><b>f</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.NoClassDefFoundError: Could not initialize class com.myjava.utils.Log<br/></td><td style="text-align:right">12:47:45</td><td class="numi">00:00:00</td> </tr>"<tr class="failedodd"><td><a href="#m2"><b>f2</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.NoClassDefFoundError: Could not initialize class com.myjava.utils.Log<br/></td><td style="text-align:right">12:47:45</td><td class="numi">00:00:00</td> </tr>"
+<tr class="failedodd"><td rowspan="2">com.myjava.test.NewTest</td><td><a href="#m1"><b>f</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.Error: Unresolved compilation problem: <br/></td><td style="text-align:right">04:50:45</td><td class="numi">00:00:00</td> </tr>"<tr class="failedodd"><td><a href="#m2"><b>f2</b>  </a></td><td class="numi" style="text-align:left;padding-right:2em">java.lang.Error: Unresolved compilation problem: <br/></td><td style="text-align:right">04:50:45</td><td class="numi">00:00:00</td> </tr>"
 </table>
 <h1>ToolsQA</h1>
 <h2 id="m1">com.myjava.test.NewTest:f</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
 <tr class="param stripe"><td>chrome</td>
-<td>1</td>
-<td>a</td>
+<td>2</td>
+<td>b</td>
 </tr>
 <tr><td colspan="3">
-<div class="stacktrace">java.lang.NoClassDefFoundError: org/apache/logging/log4j/LogManager
-	at com.myjava.utils.Log.&lt;clinit&gt;(Log.java:8)
+<div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at com.myjava.utils.Log.info(Log.java:47)
 	at com.myjava.utils.LocalBrowserManager.initializeDriver(LocalBrowserManager.java:25)
 	at com.myjava.test.NewTest.f(NewTest.java:22)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.LogManager
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 16 more
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ... Removed 10 stack frames</div>
 </td></tr>
 </table>
@@ -66,16 +62,19 @@ Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.LogManager
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Param.1</th><th>Param.2</th><th>Param.3</th></tr>
 <tr class="param stripe"><td>chrome</td>
-<td>2</td>
-<td>b</td>
+<td>1</td>
+<td>a</td>
 </tr>
 <tr><td colspan="3">
-<div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class com.myjava.utils.Log
+<div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at com.myjava.utils.Log.info(Log.java:47)
 	at com.myjava.utils.LocalBrowserManager.initializeDriver(LocalBrowserManager.java:25)
 	at com.myjava.test.NewTest.f(NewTest.java:22)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ... Removed 10 stack frames</div>
 </td></tr>
 </table>
@@ -88,12 +87,15 @@ Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.LogManager
 <td>a</td>
 </tr>
 <tr><td colspan="3">
-<div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class com.myjava.utils.Log
+<div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at com.myjava.utils.Log.info(Log.java:47)
 	at com.myjava.utils.LocalBrowserManager.initializeDriver(LocalBrowserManager.java:25)
 	at com.myjava.test.NewTest.f2(NewTest.java:38)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ... Removed 10 stack frames</div>
 </td></tr>
 </table>
@@ -106,12 +108,15 @@ Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.LogManager
 <td>b</td>
 </tr>
 <tr><td colspan="3">
-<div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class com.myjava.utils.Log
+<div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Logger cannot be resolved to a type
+
+	at com.myjava.utils.Log.info(Log.java:47)
 	at com.myjava.utils.LocalBrowserManager.initializeDriver(LocalBrowserManager.java:25)
 	at com.myjava.test.NewTest.f2(NewTest.java:38)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ... Removed 10 stack frames</div>
 </td></tr>
 </table>
