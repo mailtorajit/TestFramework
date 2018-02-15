@@ -1,1 +1,3 @@
-java -cp target\test-classes;src\main\test\*;C:\Users\rajkumar_surabhi\.m2\* org.testng.TestNg testng.xml
+java -cp "testng-6.8.3.jar;target/classes/;src/main/java/*;jcommander.jar;selenium-server-standalone-3.9.1.jar;" org.testng.TestNG .\testng.xml
+
+timeout 10

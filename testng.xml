@@ -7,11 +7,11 @@
 
 	<test name="ToolsQA">
 
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 
 		<classes>
 
-			<class name="com.myjava.test.NewTest"/>
+			<class name="com.myjava.test.NewTest" />
 
 		</classes>
 

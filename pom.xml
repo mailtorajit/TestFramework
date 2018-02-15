@@ -40,6 +40,11 @@
 			<version>${selenium.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>com.beust</groupId>
+			<artifactId>jcommander</artifactId>
+			<version>1.48</version>
+		</dependency>
+		<dependency>
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
 			<version>4.1.2</version>
@@ -219,7 +224,7 @@
 					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 	<distributionManagement>

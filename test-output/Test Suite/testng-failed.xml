@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Test Suite]" parallel="methods">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.myjava.utils.TestNGCustomReportListener"/>
+  </listeners>
+  <test name="ToolsQA(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.myjava.test.NewTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="f2" invocation-numbers="0 1"/>
+          <include name="f" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.myjava.test.NewTest -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
