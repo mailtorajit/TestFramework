@@ -2,28 +2,29 @@
 
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 
-<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+	debug="false">
 
-<appender name="fileAppender" class="org.apache.log4j.FileAppender">
+	<appender name="fileAppender" class="org.apache.log4j.FileAppender">
 
-<param name="Threshold" value="INFO" />
+		<param name="Threshold" value="INFO" />
 
-<param name="File" value="logfile.log"/>
+		<param name="File" value="logfile.log" />
 
-<layout class="org.apache.log4j.PatternLayout">
+		<layout class="org.apache.log4j.PatternLayout">
 
-<param name="ConversionPattern" value="%d %-5p [%c{1}] %m %n" />
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m %n" />
 
-</layout>
+		</layout>
 
-</appender>
+	</appender>
 
-<root>
+	<root>
 
-<level value="INFO"/>
+		<level value="INFO" />
 
-<appender-ref ref="fileAppender"/>
+		<appender-ref ref="fileAppender" />
 
-</root>
+	</root>
 
 </log4j:configuration>
