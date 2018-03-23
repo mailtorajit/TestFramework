@@ -189,6 +189,9 @@
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+                        <browserNames>${BROWSERNAME}</browserNames>
+                    </systemPropertyVariables>
 				</configuration>
 			</plugin>
 

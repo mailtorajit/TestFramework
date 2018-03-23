@@ -22,6 +22,7 @@ public class LocalBrowserManager {
 	 */
 
 	public static void initializeDriver(String browser) {
+		System.out.println(System.getProperty("browserNames"));
 		Log.info("==================================" + browser);
 		Log.info(System.getProperty("os.name"));
 		try {
