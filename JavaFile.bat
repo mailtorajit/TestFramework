@@ -15,7 +15,7 @@ For /F "tokens=1* delims==" %%A IN (./src/main/resources/application.properties)
 	
 	
 (
-FOR /f "usebackqdelims=" %%a IN (./src/main/resources/application.properties) DO (
+FOR /f "usebackq delims=" %%a IN (./src/main/resources/application.properties) DO (
 FOR /f "tokens=1*delims==" %%g IN ("%%a") DO (
 IF "%%g"=="browser.name" (ECHO(%%g=%~1
 ) ELSE (IF "%%g"=="browser.url" (ECHO(%%g=%~2
